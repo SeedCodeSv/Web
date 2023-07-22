@@ -1,8 +1,7 @@
 <template>
-     <Layout />
-    <div>
-        <P>A cerca de</P>
-    </div>
+     <Layout>
+      
+     </Layout>
 </template>
 
 <script lang="ts" setup>
