@@ -7,7 +7,7 @@
       />
     </video>
     <div
-      class="absolute top-0 left-0 w-full h-full flex justify-center items-center text-center text-white font-black text-4xl md:text-5xl lg:text-6xl"
+      class="absolute top-0 left-0 w-full text-opacity-80 h-full flex justify-center items-center text-center text-white font-black text-4xl md:text-5xl lg:text-6xl"
     >
       <div>
         Nutriendo ideas y cultivando<span class="block"

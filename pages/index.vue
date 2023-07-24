@@ -4,7 +4,7 @@
   <videoComponent></videoComponent>
 
   <div
-    class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 p-5 md:p-10 mt-20"
+    class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 p-5 md:p-10 mt-18"
   >
     <div class="p-3">
       <p
@@ -13,7 +13,7 @@
         5+
       </p>
       <p class="text-center text-lg md:text-xl font-semibold">
-        Proyectos completados
+        Proyectos Completados
       </p>
       <p class="text-center text-base md:text-base justify-center">
         Trabajando de la mano con tecnologías de fuerte demanda.
@@ -26,7 +26,7 @@
         4+
       </p>
       <p class="text-center text-lg md:text-xl font-semibold">
-        Proyectos completados
+        Clientes
       </p>
       <p class="text-center text-base md:text-base justify-center">
         Trabajando de la mano con tecnologías de fuerte demanda.
@@ -39,7 +39,7 @@
         9+
       </p>
       <p class="text-center text-lg md:text-xl font-semibold">
-        Proyectos completados
+        Años de Experiencia
       </p>
       <p class="text-center text-base md:text-base justify-center">
         Trabajando de la mano con tecnologías de fuerte demanda.
@@ -86,10 +86,11 @@
           class="mt-4 lg:mt-0 px-5 w-full h-full grid place-content-center place-items-center"
         >
           <p class="text-base sm:text-lg">
-            Trabajando de la mano con tecnologías de fuerte demanda. Trabajando
-            de la mano con tecnologías de fuerte demanda. Trabajando de la mano
-            con tecnologías de fuerte demanda. Trabajando de la mano con
-            tecnologías de fuerte demanda.
+            SeedCode, una empresa líder en servicios tecnológicos, proporciona
+            soluciones innovadoras y personalizadas para impulsar el crecimiento
+            de negocios. Con un equipo altamente capacitado, nos enfocamos en
+            brindar resultados excepcionales y satisfacer las necesidades de
+            nuestros clientes.
           </p>
         </div>
       </div>
@@ -105,63 +106,69 @@
     <div
       class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-11 gap-y-11 mt-10"
     >
-      <div class="p-3">
+      <div class="p-6">
         <img class="w-40 mx-auto" src="../../assets/css/img/e-commerce.png" />
         <p class="text-center text-xl font-semibold mt-3">Ecommerce</p>
         <p
           class="text-center text-base mt-3 grid place-content-center place-items-center"
         >
-          Trabajando de la mano con tecnologías de fuerte demanda.
+          Sumérgete en una experiencia en línea única, interactiva y
+          colaborativa en un mundo virtual personalizado y fascinante..
         </p>
       </div>
 
-      <div class="p-3">
+      <div class="p-6">
         <img class="w-40 mx-auto" src="../../assets/css/img/e-commerce.png" />
-        <p class="text-center text-xl font-semibold mt-3">Ecommerce</p>
+        <p class="text-center text-xl font-semibold mt-3">Software</p>
         <p
           class="text-center text-base mt-3 grid place-content-center place-items-center"
         >
-          Trabajando de la mano con tecnologías de fuerte demanda.
+          Atrae nuevos clientes con tecnología de vanguardia para impulsar tu
+          negocio hacia el éxito.
         </p>
       </div>
 
-      <div class="p-3">
+      <div class="p-6">
         <img class="w-40 mx-auto" src="../../assets/css/img/e-commerce.png" />
-        <p class="text-center text-xl font-semibold mt-3">Ecommerce</p>
+        <p class="text-center text-xl font-semibold mt-3">Redes Sociales</p>
         <p
           class="text-center text-base mt-3 grid place-content-center place-items-center"
         >
-          Trabajando de la mano con tecnologías de fuerte demanda.
+          Descubre el poder de nuestras estrategias innovadoras para destacar en
+          el mercado.
         </p>
       </div>
 
-      <div class="p-3">
+      <div class="p-6">
         <img class="w-40 mx-auto" src="../../assets/css/img/e-commerce.png" />
-        <p class="text-center text-xl font-semibold mt-3">Ecommerce</p>
+        <p class="text-center text-xl font-semibold mt-3">Sitios Web</p>
         <p
           class="text-center text-base mt-3 grid place-content-center place-items-center"
         >
-          Trabajando de la mano con tecnologías de fuerte demanda.
+          Confía en nuestra experiencia para ofrecerte resultados excepcionales
+          y una experiencia del usuario inigualable.
         </p>
       </div>
 
-      <div class="p-3">
+      <div class="p-6">
         <img class="w-40 mx-auto" src="../../assets/css/img/e-commerce.png" />
-        <p class="text-center text-xl font-semibold mt-3">Ecommerce</p>
+        <p class="text-center text-xl font-semibold mt-3">Optimización Web</p>
         <p
           class="text-center text-base mt-3 grid place-content-center place-items-center"
         >
-          Trabajando de la mano con tecnologías de fuerte demanda.
+          Aumenta tu presencia y atrae a más clientes potenciales hacia tu
+          negocio.
         </p>
       </div>
 
-      <div class="p-3">
+      <div class="p-6">
         <img class="w-40 mx-auto" src="../../assets/css/img/e-commerce.png" />
-        <p class="text-center text-xl font-semibold mt-3">Ecommerce</p>
+        <p class="text-center text-xl font-semibold mt-3">Soporte</p>
         <p
           class="text-center text-base mt-3 grid place-content-center place-items-center"
         >
-          Trabajando de la mano con tecnologías de fuerte demanda.
+          Contamos contigo para alcanzar el éxito con apoyo y guía
+          personalizados.
         </p>
       </div>
     </div>
