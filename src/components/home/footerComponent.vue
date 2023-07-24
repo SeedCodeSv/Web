@@ -5,7 +5,7 @@
       <div class="flex flex-col items-center text-center">
         <a href="#">
           <img
-            class="w-auto h-15"
+            class="w-auto h-10"
             src="/assets/css/img/LogoSeedCode.png"
           />
         </a>
