@@ -11,13 +11,12 @@
           </div>
           <div class="text-white text-center">
             <p class="font-semibold">Contacto</p>
-            <p>seedCode@gmail.com</p>
-            <p>+503 7777-8888</p>
+            <p>seedcodesv@gmail.com</p>
+            <p>+503 7392-1094</p>
           </div>
           <div class="text-white text-center">
             <p class="font-semibold">Sitio Web</p>
-            <a href="https://seedcodesv.com/">www.SeedCode</a>
-            <p>SeedCode</p>
+            <a href="https://www.linkedin.com/company/seedcode-sv/">LinkedIn</a>
           </div>
         </div>
       </div>
