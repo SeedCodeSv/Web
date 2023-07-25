@@ -57,7 +57,7 @@
         <div class="w-full h-70 sm:h-auto">
           <img
             class="rounded-xl h-full w-full object-cover"
-            src="../../assets/css/img/img-card.jpg"
+            src="../assets/css/img/img-card.jpg"
           />
         </div>
         <div
@@ -85,7 +85,7 @@
       class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-11 gap-y-11 mt-10"
     >
       <div class="p-6">
-        <img class="w-40 mx-auto" src="../../assets/css/img/e-commerce.png" />
+        <img class="w-40 mx-auto" src="../assets/css/img/e-commerce.png" />
         <p class="text-center text-xl font-semibold mt-3">E-commerce</p>
         <p
           class="text-center text-base mt-3 grid place-content-center place-items-center"
@@ -96,7 +96,7 @@
       </div>
 
       <div class="p-6">
-        <img class="w-40 mx-auto" src="../../assets/css/img/laptop.png" />
+        <img class="w-40 mx-auto" src="../assets/css/img/laptop.png" />
         <p class="text-center text-xl font-semibold mt-3">Software</p>
         <p
           class="text-center text-base mt-3 grid place-content-center place-items-center"
@@ -107,7 +107,7 @@
       </div>
 
       <div class="p-6">
-        <img class="w-40 mx-auto" src="../../assets/css/img/social-media.png" />
+        <img class="w-40 mx-auto" src="../assets/css/img/social-media.png" />
         <p class="text-center text-xl font-semibold mt-3">Redes Sociales</p>
         <p
           class="text-center text-base mt-3 grid place-content-center place-items-center"
@@ -118,7 +118,7 @@
       </div>
 
       <div class="p-6">
-        <img class="w-40 mx-auto" src="../../assets/css/img/navegador.png" />
+        <img class="w-40 mx-auto" src="../assets/css/img/navegador.png" />
         <p class="text-center text-xl font-semibold mt-3">Sitios Web</p>
         <p
           class="text-center text-base mt-3 grid place-content-center place-items-center"
@@ -129,7 +129,7 @@
       </div>
 
       <div class="p-6">
-        <img class="w-40 mx-auto" src="../../assets/css/img/soporte-tecnico.png" />
+        <img class="w-40 mx-auto" src="../assets/css/img/soporte-tecnico.png" />
         <p class="text-center text-xl font-semibold mt-3">Optimización Web</p>
         <p
           class="text-center text-base mt-3 grid place-content-center place-items-center"
@@ -140,7 +140,7 @@
       </div>
 
       <div class="p-6">
-        <img class="w-40 mx-auto" src="../../assets/css/img/Soporte.png" />
+        <img class="w-40 mx-auto" src="../assets/css/img/Soporte.png" />
         <p class="text-center text-xl font-semibold mt-3">Soporte</p>
         <p
           class="text-center text-base mt-3 grid place-content-center place-items-center"
@@ -158,7 +158,7 @@
     <div class="overflow-hidden rounded-lg shadow-lg cursor-pointer">
       <img
         class="object-cover w-full h-48"
-        src="../../assets/css/img/Img1.jpg"
+        src="../assets/css/img/Img1.jpg"
         alt="Flower and sky"
       />
     </div>
@@ -166,7 +166,7 @@
     <div class="overflow-hidden rounded-lg shadow-lg cursor-pointer">
       <img
         class="object-cover w-full h-48"
-        src="../../assets/css/img/Img2.jpg"
+        src="../assets/css/img/Img2.jpg"
         alt="Flower and sky"
       />
     </div>
@@ -174,7 +174,7 @@
     <div class="overflow-hidden rounded-lg shadow-lg cursor-pointer">
       <img
         class="object-cover w-full h-48"
-        src="../../assets/css/img/Img3.jpg"
+        src="../assets/css/img/Img3.jpg"
         alt="Flower and sky"
       />
     </div>
@@ -182,7 +182,7 @@
     <div class="overflow-hidden rounded-lg shadow-lg cursor-pointer">
       <img
         class="object-cover w-full h-48"
-        src="../../assets/css/img/Img4.jpg"
+        src="../assets/css/img/Img4.jpg"
         alt="Flower and sky"
       />
     </div>
