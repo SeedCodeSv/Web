@@ -5,10 +5,10 @@
         class="flex flex-col md:flex-row gap-5 p-10 mt-40 justify-center items-center content-center"
       >
         <div
-          class="block w-full md:w-1/2 rounded-lg bg-white text-center dark:bg-neutral-700 shadow"
+          class="block w-full md:w-1/2 rounded-lg bg-gray-100 text-center dark:bg-white shadow"
         >
           <div
-            class="border-b-2 text-xl font-medium opacity-0.5 border-neutral-100 px-6 py-3 dark:border-neutral-600 dark:text-neutral-50"
+            class="border-b-2 text-xl font-medium opacity-0.5 border-neutral-100 px-6 py-3 dark:border-white dark:text-neutral-50"
           >
             Misión
           </div>
@@ -30,7 +30,7 @@
             </p>
           </div>
           <div
-            class="border-t-2 border-neutral-100 px-6 py-3 dark:border-neutral-600 dark:text-neutral-50"
+            class="border-t-2 border-neutral-100 px-6 py-3 dark:border-neutral-900 dark:text-neutral-50"
           >
             SeedCode
           </div>
@@ -41,7 +41,7 @@
         class="flex flex-col md:flex-row gap-5 p-10 mt-30 justify-center items-center content-center"
       >
         <div
-          class="block w-full md:w-1/2 rounded-lg bg-white text-center dark:bg-neutral-700 shadow"
+          class="block w-full md:w-1/2 rounded-lg bg-gray-100 text-center dark:bg-neutral-700 shadow"
         >
           <div
             class="border-b-2 text-xl font-medium opacity-0.5 border-neutral-100 px-6 py-3 dark:border-neutral-600 dark:text-neutral-50"

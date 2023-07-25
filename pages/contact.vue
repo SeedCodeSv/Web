@@ -28,7 +28,7 @@
                     <label
                       class="text-sm font-semibold text-gray-500"
                       placeholder="Seleccione el Cargo"
-                      >Tipo de Cliente</label
+                      >Forma de Contacto</label
                     >
                     <Field
                       name="typeOfCustomerId"
@@ -36,8 +36,9 @@
                       class="w-full p-4 border rounded-xl"
                       placeholder="Seleccione el Cargo"
                     >
-                      <option disabled value="">Seleccione el cliente</option>
-                      <option></option>
+                      <option disabled value="">Seleccione el forma</option>
+                      <option>Correo Electrónico</option>
+                      <option>Mensaje de texto</option>
                     </Field>
                     <ErrorMessage name="rolId" class="text-red-600" />
                   </div>

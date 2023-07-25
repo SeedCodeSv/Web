@@ -2,32 +2,23 @@
   <!-- component -->
   <footer class="bg-[rgba(0,0,0,0.8)] dark:bg-gray-900 mt-20">
     <div class="container px-6 py-8 mx-auto">
-      <div class="flex flex-col items-center text-center">
-        <a href="#">
-          <img
-            class="w-auto h-10"
-            src="/assets/css/img/LogoSeedCode.png"
-          />
-        </a>
 
-        <p class="max-w-md mx-auto mt-4 text-white">
-          Trabajando de la mano con tecnologías de fuerte demanda.
-        </p>
-
-        <div
-          class="flex flex-col mt-4 sm:flex-row sm:items-center sm:justify-center"
-        >
-          <button
-            class="w-full px-5 py-2 text-sm tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md sm:mx-2 sm:order-2 sm:w-auto hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80"
-          >
-            Inicio
-          </button>
-
-          <button
-            class="w-full px-5 py-2 text-sm tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md sm:mx-2 sm:order-2 sm:w-auto hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80"
-          >
-            Ayuda
-          </button>
+      <div class="flex items-center justify-center">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
+          <div class="text-white text-center">
+            <p class="font-semibold">Dirección</p>
+            <p>Av. Santa Lucia, Sonzacate, Sonsonate, El Salvador</p>
+          </div>
+          <div class="text-white text-center">
+            <p class="font-semibold">Contacto</p>
+            <p>seedCode@gmail.com</p>
+            <p>+503 7777-8888</p>
+          </div>
+          <div class="text-white text-center">
+            <p class="font-semibold">Sitio Web</p>
+            <a href="https://seedcodesv.com/">www.SeedCode</a>
+            <p>SeedCode</p>
+          </div>
         </div>
       </div>
 
@@ -67,5 +58,3 @@
 </template>
 
 <script lang="ts" setup></script>
-
-<style lang="scss" scoped></style>

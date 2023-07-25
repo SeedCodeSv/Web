@@ -16,7 +16,8 @@
         Proyectos Completados
       </p>
       <p class="text-center text-base md:text-base justify-center">
-        Trabajando de la mano con tecnologías de fuerte demanda.
+        Nos hemos especializado en la creación de soluciones digitales de
+        excelencia y vanguardia
       </p>
     </div>
     <div class="p-3">
@@ -25,11 +26,11 @@
       >
         4+
       </p>
-      <p class="text-center text-lg md:text-xl font-semibold">
-        Clientes
-      </p>
+      <p class="text-center text-lg md:text-xl font-semibold">Clientes</p>
       <p class="text-center text-base md:text-base justify-center">
-        Trabajando de la mano con tecnologías de fuerte demanda.
+        Nuestra sólida cartera de proyectos exitosos refleja la confianza de
+        nuestros clientes y nuestro enfoque profesional en la satisfacción del
+        cliente.
       </p>
     </div>
     <div class="p-3">
@@ -42,35 +43,12 @@
         Años de Experiencia
       </p>
       <p class="text-center text-base md:text-base justify-center">
-        Trabajando de la mano con tecnologías de fuerte demanda.
+        Nuestra dedicación y experiencia nos han llevado a ser líderes expertos
+        en nuestro campo.
       </p>
     </div>
   </div>
 
-  <!-- <div class="flex justify-center text-center mt-20">
-      <div
-        class="w-2/3 m-1 justify-center text-black shadow-2xl rounded-xl bg-white p-4"
-      >
-        <div class="grid grid-cols-2">
-          <div class="w-full h-full">
-            <img
-              class="rounded-xl h-70 w-auto"
-              src="../../assets/css/img/img-card.jpg"
-            />
-          </div>
-          <div
-            class="px-5 w-full h-full grid place-content-center place-items-center"
-          >
-            <p class="text-lg">
-              Trabajando de la mano con tecnologías de fuerte demanda. Trabajando
-              de la mano con tecnologías de fuerte demanda. Trabajando de la mano
-              con tecnologías de fuerte demanda. Trabajando de la mano con
-              tecnologías de fuerte demanda.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div> -->
   <div class="flex justify-center text-center mt-10 sm:mt-20">
     <div
       class="w-full sm:w-2/3 m-1 justify-center text-black shadow-2xl rounded-xl bg-white p-4"
@@ -108,17 +86,17 @@
     >
       <div class="p-6">
         <img class="w-40 mx-auto" src="../../assets/css/img/e-commerce.png" />
-        <p class="text-center text-xl font-semibold mt-3">Ecommerce</p>
+        <p class="text-center text-xl font-semibold mt-3">E-commerce</p>
         <p
           class="text-center text-base mt-3 grid place-content-center place-items-center"
         >
-          Sumérgete en una experiencia en línea única, interactiva y
-          colaborativa en un mundo virtual personalizado y fascinante..
+          Proporciona herramientas de pago seguras, administración de inventario
+          y seguimiento de pedidos para una experiencia de compra satisfactoria.
         </p>
       </div>
 
       <div class="p-6">
-        <img class="w-40 mx-auto" src="../../assets/css/img/e-commerce.png" />
+        <img class="w-40 mx-auto" src="../../assets/css/img/laptop.png" />
         <p class="text-center text-xl font-semibold mt-3">Software</p>
         <p
           class="text-center text-base mt-3 grid place-content-center place-items-center"
@@ -129,7 +107,7 @@
       </div>
 
       <div class="p-6">
-        <img class="w-40 mx-auto" src="../../assets/css/img/e-commerce.png" />
+        <img class="w-40 mx-auto" src="../../assets/css/img/social-media.png" />
         <p class="text-center text-xl font-semibold mt-3">Redes Sociales</p>
         <p
           class="text-center text-base mt-3 grid place-content-center place-items-center"
@@ -140,7 +118,7 @@
       </div>
 
       <div class="p-6">
-        <img class="w-40 mx-auto" src="../../assets/css/img/e-commerce.png" />
+        <img class="w-40 mx-auto" src="../../assets/css/img/navegador.png" />
         <p class="text-center text-xl font-semibold mt-3">Sitios Web</p>
         <p
           class="text-center text-base mt-3 grid place-content-center place-items-center"
@@ -151,7 +129,7 @@
       </div>
 
       <div class="p-6">
-        <img class="w-40 mx-auto" src="../../assets/css/img/e-commerce.png" />
+        <img class="w-40 mx-auto" src="../../assets/css/img/soporte-tecnico.png" />
         <p class="text-center text-xl font-semibold mt-3">Optimización Web</p>
         <p
           class="text-center text-base mt-3 grid place-content-center place-items-center"
@@ -162,7 +140,7 @@
       </div>
 
       <div class="p-6">
-        <img class="w-40 mx-auto" src="../../assets/css/img/e-commerce.png" />
+        <img class="w-40 mx-auto" src="../../assets/css/img/Soporte.png" />
         <p class="text-center text-xl font-semibold mt-3">Soporte</p>
         <p
           class="text-center text-base mt-3 grid place-content-center place-items-center"
