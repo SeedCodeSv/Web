@@ -51,7 +51,7 @@
 
   <div class="flex justify-center text-center mt-10 sm:mt-20">
     <div
-      class="w-full sm:w-2/3 m-1 justify-center text-black shadow-2xl rounded-xl bg-white p-4"
+      class="w-full sm:w-2/3 m-1 justify-center text-white shadow-sm rounded-xl bg-[rgba(0,0,0,0.2)] p-4"
     >
       <div class="grid sm:grid-cols-1 lg:grid-cols-2">
         <div class="w-full h-70 sm:h-auto">
@@ -82,75 +82,98 @@
       </h5>
     </div>
     <div
-      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-11 gap-y-11 mt-10"
+      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-11 gap-y-11 mt-10 p-10"
     >
-      <div class="p-6">
-        <img class="w-40 mx-auto" src="../assets/css/img/e-commerce.png" />
-        <p class="text-center text-xl font-semibold mt-3">E-commerce</p>
-        <p
-          class="text-center text-base mt-3 grid place-content-center place-items-center"
-        >
-          Proporciona herramientas de pago seguras, administración de inventario
-          y seguimiento de pedidos para una experiencia de compra satisfactoria.
-        </p>
+      <div class="max-w-sm rounded-2xl overflow-hidden shadow-xl mx-auto mt-6">
+        <div class="p-6">
+          <img class="w-40 mx-auto" src="../assets/css/img/e-commerce.png" />
+          <p class="text-center text-xl font-semibold mt-3">E-commerce</p>
+          <p
+            class="text-center text-base mt-3 grid place-content-center place-items-center"
+          >
+            Proporciona herramientas de pago seguras, administración de
+            inventario y seguimiento de pedidos para una experiencia de compra
+            satisfactoria.
+          </p>
+        </div>
       </div>
 
-      <div class="p-6">
-        <img class="w-40 mx-auto" src="../assets/css/img/laptop.png" />
-        <p class="text-center text-xl font-semibold mt-3">Software</p>
-        <p
-          class="text-center text-base mt-3 grid place-content-center place-items-center"
-        >
-          Atrae nuevos clientes con tecnología de vanguardia para impulsar tu
-          negocio hacia el éxito.
-        </p>
+      <div class="max-w-sm rounded-2xl overflow-hidden shadow-xl mx-auto mt-6">
+        <div class="p-6">
+          <img class="w-40 mx-auto" src="../assets/css/img/laptop.png" />
+          <p class="text-center text-xl font-semibold mt-3">Software</p>
+          <p
+            class="text-center text-base mt-3 grid place-content-center place-items-center"
+          >
+            Atrae nuevos clientes con tecnología de vanguardia para impulsar tu
+            negocio hacia el éxito.
+          </p>
+        </div>
       </div>
 
-      <div class="p-6">
-        <img class="w-40 mx-auto" src="../assets/css/img/social-media.png" />
-        <p class="text-center text-xl font-semibold mt-3">Redes Sociales</p>
-        <p
-          class="text-center text-base mt-3 grid place-content-center place-items-center"
-        >
-          Descubre el poder de nuestras estrategias innovadoras para destacar en
-          el mercado.
-        </p>
+      <div class="max-w-sm rounded-2xl overflow-hidden shadow-xl mx-auto mt-6">
+        <div class="p-6">
+          <img class="w-40 mx-auto" src="../assets/css/img/social-media.png" />
+          <p class="text-center text-xl font-semibold mt-3">Redes Sociales</p>
+          <p
+            class="text-center text-base mt-3 grid place-content-center place-items-center"
+          >
+            Descubre el poder de nuestras estrategias innovadoras para destacar
+            en el mercado.
+          </p>
+        </div>
       </div>
 
-      <div class="p-6">
-        <img class="w-40 mx-auto" src="../assets/css/img/navegador.png" />
-        <p class="text-center text-xl font-semibold mt-3">Sitios Web</p>
-        <p
-          class="text-center text-base mt-3 grid place-content-center place-items-center"
-        >
-          Confía en nuestra experiencia para ofrecerte resultados excepcionales
-          y una experiencia del usuario inigualable.
-        </p>
+      <div class="max-w-sm rounded-2xl overflow-hidden shadow-xl mx-auto mt-6">
+        <div class="p-6">
+          <img class="w-40 mx-auto" src="../assets/css/img/navegador.png" />
+          <p class="text-center text-xl font-semibold mt-3">Sitios Web</p>
+          <p
+            class="text-center text-base mt-3 grid place-content-center place-items-center"
+          >
+            Confía en nuestra experiencia para ofrecerte resultados
+            excepcionales y una experiencia del usuario inigualable.
+          </p>
+        </div>
       </div>
 
-      <div class="p-6">
-        <img class="w-40 mx-auto" src="../assets/css/img/soporte-tecnico.png" />
-        <p class="text-center text-xl font-semibold mt-3">Optimización Web</p>
-        <p
-          class="text-center text-base mt-3 grid place-content-center place-items-center"
-        >
-          Aumenta tu presencia y atrae a más clientes potenciales hacia tu
-          negocio.
-        </p>
+      <div class="max-w-sm rounded-lg overflow-hidden shadow-xl mx-auto mt-6">
+        <div class="p-6">
+          <img
+            class="w-40 mx-auto"
+            src="../assets/css/img/soporte-tecnico.png"
+          />
+          <p class="text-center text-xl font-semibold mt-3">Optimización Web</p>
+          <p
+            class="text-center text-base mt-3 grid place-content-center place-items-center"
+          >
+            Aumenta tu presencia y atrae a más clientes potenciales hacia tu
+            negocio.
+          </p>
+        </div>
       </div>
 
-      <div class="p-6">
-        <img class="w-40 mx-auto" src="../assets/css/img/Soporte.png" />
-        <p class="text-center text-xl font-semibold mt-3">Soporte</p>
-        <p
-          class="text-center text-base mt-3 grid place-content-center place-items-center"
-        >
-          Contamos contigo para alcanzar el éxito con apoyo y guía
-          personalizados.
-        </p>
+      <div class="max-w-sm rounded-lg overflow-hidden justify-center items-center shadow-xl mx-auto mt-6">
+        <div class="p-6">
+          <img class="w-40 mx-auto" src="../assets/css/img/Soporte.png" />
+          <p class="text-center text-xl font-semibold mt-3">Soporte</p>
+          <p
+            class="text-center text-base mt-3 grid place-content-center place-items-center"
+          >
+            Contamos contigo para alcanzar el éxito con apoyo y guía
+            personalizados.
+          </p>
+        </div>
       </div>
+
     </div>
   </div>
+
+
+
+
+
+
 
   <div
     class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 w-full mt-20"
@@ -162,7 +185,6 @@
         alt="Flower and sky"
       />
     </div>
-
     <div class="overflow-hidden rounded-lg shadow-lg cursor-pointer">
       <img
         class="object-cover w-full h-48"

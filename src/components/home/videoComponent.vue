@@ -1,6 +1,6 @@
 <template>
   <div class="relative">
-  <video autoplay muted loop class="w-full h-auto object-cover">
+  <video autoplay muted loop class="w-full h-auto object-cover bg-[rgba(0,0,0,0.8)]">
     <source
       src="https://v4.cdnpk.net/videvo_files/video/free/video0467/large_watermarked/_import_615a995eea3f30.45528318_FPpreview.mp4"
       type="video/mp4"
@@ -15,4 +15,6 @@
 
 </template>
 
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+
+</script>
