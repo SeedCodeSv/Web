@@ -1,0 +1,16 @@
+/* Estilos para el contenedor del video */
+.relative {
+    position: relative;
+  }
+  
+  /* Estilos para la capa oscura */
+  .relative::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Color negro con opacidad (ajusta el valor según desees) */
+  }
+  
