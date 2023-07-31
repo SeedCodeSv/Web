@@ -1,25 +1,100 @@
 <template>
   <Layout>
+
+    <div class="relative">
+  <img class="w-full h-96 object-cover" src="https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" />
+
+  <!-- <div class="absolute inset-0 flex justify-center items-center text-center text-white text-4xl md:text-5xl lg:text-6xl mt-20">
+  <div class="px-4 sm:px-8 lg:px-16 xl:px-32">
+    <div class="flex-shrink-0">
+      <img src="../assets/css/img/HojasDeLogo.png" alt="Descripción de la imagen" class="w-20 h-20 object-cover rounded-lg">
+    </div>
+  </div>
+</div> -->
+
+
+<div class="absolute inset-0 flex justify-center items-center text-center text-white text-4xl md:text-5xl lg:text-6xl mt-20">
+  <div class="px-4 sm:px-8 lg:px-16 xl:px-32 grid grid-cols-2 ">
+    <!-- Columna de la imagen -->
+    <div class="flex-shrink-0">
+      <img src="../assets/css/img/LogoSeedCode.png" alt="Descripción de la imagen" class="w-20 h-20 object-cover rounded-lg">
+    </div>
     <div>
-      <div
-        class="flex flex-col md:flex-row gap-5 p-10 mt-40 justify-center items-center content-center"
-      >
+    </div>
+
+  </div>
+</div>
+
+
+</div>
+<!-- 
+<div class="flex justify-center text-center mt-10 sm:mt-15">
+    <div
+      class="w-full sm:w-2/3 m-1 align-center text-black rounded-xl p-4"
+    >
+      <div class="grid sm:grid-cols-1 lg:grid-cols-2">
+    
         <div
-          class="block w-full md:w-1/2 rounded-lg bg-gray-100 text-center dark:bg-white shadow"
+          class="mt-4 lg:mt-0 px-5 w-full h-full grid place-content-center place-items-center"
         >
-          <div
-            class="border-b-2 text-xl font-medium opacity-0.5 border-neutral-100 px-6 py-3 dark:border-white dark:text-neutral-50"
-          >
-            Misión
-          </div>
-          <div class="p-6 flex flex-col items-center">
-            <img
-              src="../assets/css/img/mision.jpg"
-              class="rounded-full w-32 h-32 md:w-40 md:h-40 object-cover mb-4"
-              alt=""
-            />
-            <p class="text-base text-neutral-700 dark:text-neutral-200">
-              Nuestra misión es diseñar y desarrollar software de calidad,
+        <p class="text-base sm:text-lg">Visión</p>
+          <p class="text-base sm:text-lg">
+            Ser reconocidos como líderes en el desarrollo de software,
+              brindando soluciones tecnológicas innovadoras que impulsen el
+              éxito de nuestros clientes en el mundo digital.
+          </p>
+        </div>
+        <div class="w-full h-70 sm:h-auto">
+          <img
+            class="rounded-xl h-full w-full object-cover"
+            src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHNvZnR3YXJlJTIwY29tcGFueXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+          />
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <div class="flex justify-center text-center mt-10 sm:mt-15">
+  <div class="w-full sm:w-2/3 m-1 align-center text-black rounded-xl p-4">
+    <div class="grid sm:grid-cols-1 lg:grid-cols-2">
+
+      <div class="mt-4 lg:mt-0 px-5 w-full h-full grid place-content-center place-items-center">
+        <div class="p-4">
+          <p class="text-base sm:text-lg">Visión</p>
+          <p class="text-base sm:text-lg">
+            Ser reconocidos como líderes en el desarrollo de software,
+            brindando soluciones tecnológicas innovadoras que impulsen el
+            éxito de nuestros clientes en el mundo digital.
+          </p>
+        </div>
+      </div>
+
+      <div class="w-full h-70 sm:h-auto">
+        <img class="rounded-xl h-full w-full object-cover" src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHNvZnR3YXJlJTIwY29tcGFueXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Descripción de la imagen" />
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<div class="flex justify-center text-center mt-10 sm:mt-15">
+    <div
+      class="w-full sm:w-2/3 m-1 align-center text-black rounded-xl p-4"
+    >
+      <div class="grid sm:grid-cols-1 lg:grid-cols-2">
+        <div class="w-full h-70 sm:h-auto">
+          <img
+            class="rounded-xl h-full w-full object-cover"
+            src="../assets/css/img/mision.jpg"
+          />
+        </div>
+        <div
+          class="mt-4 lg:mt-0 px-5 w-full h-full grid place-content-center place-items-center"
+        >
+        <p class="text-base sm:text-lg">Misión</p>
+          <p class="text-base sm:text-lg">
+            Nuestra misión es diseñar y desarrollar software de calidad,
               centrado en las necesidades de nuestros clientes. A través de
               nuestra experiencia técnica y enfoque orientado al cliente,
               buscamos superar las expectativas y ofrecer soluciones
@@ -27,47 +102,19 @@
               crecimiento empresarial. Nos esforzamos por establecer relaciones
               duraderas con nuestros clientes, basadas en la confianza, la
               colaboración y el compromiso con la excelencia.
-            </p>
-          </div>
-          <div
-            class="border-t-2 border-neutral-100 px-6 py-3 dark:border-neutral-900 dark:text-neutral-50"
-          >
-            SeedCode
-          </div>
-        </div>
-      </div>
-
-      <div
-        class="flex flex-col md:flex-row gap-5 p-10 mt-30 justify-center items-center content-center"
-      >
-        <div
-          class="block w-full md:w-1/2 rounded-lg bg-gray-100 text-center dark:bg-neutral-700 shadow"
-        >
-          <div
-            class="border-b-2 text-xl font-medium opacity-0.5 border-neutral-100 px-6 py-3 dark:border-neutral-600 dark:text-neutral-50"
-          >
-            Visión
-          </div>
-          <div class="p-6 flex flex-col items-center">
-            <img
-              src="../assets/css/img/vision.jpg"
-              class="rounded-full w-32 h-32 md:w-40 md:h-40 object-cover mb-4"
-              alt=""
-            />
-            <p class="text-base text-neutral-700 dark:text-neutral-200">
-              Ser reconocidos como líderes en el desarrollo de software,
-              brindando soluciones tecnológicas innovadoras que impulsen el
-              éxito de nuestros clientes en el mundo digital.
-            </p>
-          </div>
-          <div
-            class="border-t-2 border-neutral-100 px-6 py-3 dark:border-neutral-600 dark:text-neutral-50"
-          >
-            SeedCode
-          </div>
+          </p>
         </div>
       </div>
     </div>
+  </div>
+
+
+
+ <!-- <div class="absolute inset-0 flex justify-center items-center text-center text-white font-black text-4xl md:text-5xl lg:text-6xl">
+    <div class="px-4 sm:px-8 lg:px-16 xl:px-32 opacity-60">
+      Nutriendo ideas y cultivando<span class="block">innovación SeedCode</span>
+    </div>
+  </div> -->
 
     <footerComponent></footerComponent>
   </Layout>

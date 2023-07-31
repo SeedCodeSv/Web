@@ -1,14 +1,14 @@
 <template>
   <Layout />
 
-  <videoComponent ></videoComponent>
+  <videoComponent></videoComponent>
 
   <div
-    class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 p-5 md:p-10 mt-18"
+    class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-5 p-5 md:p-10 mt-15"
   >
-    <div class="p-3">
+    <!-- <div class="p-3">
       <p
-        class="text-center font-bold text-3xl md:text-9xl p-5 items-center drop-shadow-xl opacity-75"
+        class="text-center font-bold text-7xl p-5 items-center drop-shadow-xl opacity-75"
       >
         5+
       </p>
@@ -19,10 +19,60 @@
         Nos hemos especializado en la creación de soluciones digitales de
         excelencia y vanguardia
       </p>
-    </div>
-    <div class="p-3">
+    </div> -->
+
+    <!-- <div class="max-w-xxs rounded-2xl overflow-hidden shadow-2xl mx-auto mt-5">
       <p
-        class="text-center font-bold text-3xl md:text-9xl p-5 items-center drop-shadow-xl opacity-75"
+        class="text-center font-bold text-6xl p-5 items-center drop-shadow-xl"
+      >
+        5+
+      </p>
+      <p class="text-center text-base font-semibold">
+        Proyectos Completados
+      </p>
+      <p class="text-center text-sm md:text-base p-3">
+        Nos hemos especializado en la creación de soluciones digitales de
+        excelencia y vanguardia
+      </p>
+      </div> -->
+
+    <div class="max-w-xs rounded-2xl overflow-hidden shadow-4xl mx-auto mt-5">
+      <p class="text-center font-bold text-6xl p-5 items-center drop-shadow-xl">
+        5+
+      </p>
+      <p class="text-center text-base font-semibold">Proyectos Completados</p>
+      <p class="text-center text-sm md:text-base p-3">
+        Nos hemos especializado en la creación de soluciones digitales de
+        excelencia y vanguardia
+      </p>
+    </div>
+
+    <div class="max-w-xs rounded-2xl overflow-hidden shadow-4xl mx-auto mt-5">
+      <p class="text-center font-bold text-6xl p-5 items-center drop-shadow-xl">
+        4+
+      </p>
+      <p class="text-center text-base font-semibold">Clientes</p>
+      <p class="text-center text-sm md:text-base p-3">
+        Nuestra sólida cartera de proyectos exitosos refleja la confianza de
+        nuestros clientes y nuestro enfoque profesional en la satisfacción del
+        cliente.
+      </p>
+    </div>
+
+    <div class="max-w-xs rounded-2xl overflow-hidden shadow-4xl mx-auto mt-5">
+      <p class="text-center font-bold text-6xl p-5 items-center drop-shadow-xl">
+        9+
+      </p>
+      <p class="text-center text-base font-semibold">Años de Experiencia</p>
+      <p class="text-center text-sm md:text-base p-3">
+        Nuestra dedicación y experiencia nos han llevado a ser líderes expertos
+        en nuestro campo.
+      </p>
+    </div>
+
+    <!-- <div class="p-3">
+      <p
+        class="text-center font-bold text-7xl p-5 items-center drop-shadow-xl opacity-75"
       >
         4+
       </p>
@@ -32,10 +82,11 @@
         nuestros clientes y nuestro enfoque profesional en la satisfacción del
         cliente.
       </p>
-    </div>
-    <div class="p-3">
+    </div> -->
+
+    <!-- <div class="p-3">
       <p
-        class="text-center font-bold text-3xl md:text-9xl p-5 items-center drop-shadow-xl opacity-75"
+        class="text-center font-bold text-7xl p-5 items-center drop-shadow-xl opacity-75"
       >
         9+
       </p>
@@ -46,13 +97,11 @@
         Nuestra dedicación y experiencia nos han llevado a ser líderes expertos
         en nuestro campo.
       </p>
-    </div>
+    </div> -->
   </div>
 
-  <div class="flex justify-center text-center mt-10 sm:mt-20">
-    <div
-      class="w-full sm:w-2/3 m-1 justify-center text-white shadow-sm rounded-xl bg-[rgba(0,0,0,0.2)] p-4"
-    >
+  <div class="flex justify-center text-center bg-black mt-10 sm:mt-15">
+    <div class="w-full sm:w-2/3 m-1 justify-center text-white rounded-xl p-4">
       <div class="grid sm:grid-cols-1 lg:grid-cols-2">
         <div class="w-full h-70 sm:h-auto">
           <img
@@ -82,7 +131,7 @@
       </h5>
     </div>
     <div
-      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-11 gap-y-11 mt-8 p-10"
+      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-11 gap-y-11 mt-4 p-10"
     >
       <div class="max-w-xxs rounded-2xl overflow-hidden shadow-xl mx-auto mt-6">
         <div class="p-6">

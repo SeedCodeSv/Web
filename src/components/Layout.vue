@@ -1,6 +1,7 @@
 <template>
   <div class="relative overflow-hidden">
     <header
+    
       class="fixed h-auto w-full z-10 lg:px-16 px-4 bg-[rgba(0,0,0,0.8)] sm:flex sm:justify-between sm:items-center sm:px-4 sm:py-3"
     >
       <div class="flex items-center justify-between px-4 py-3 sm:p-0">
@@ -63,6 +64,7 @@ import video from "./home/video.vue";
 import { ref } from "vue";
 import { OhVueIcon } from "oh-vue-icons";
 
+// bg-[rgba(0,0,0,0.8)]
 const isOpen = ref(false);
 </script>
 
