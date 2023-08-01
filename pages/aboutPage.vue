@@ -1,7 +1,36 @@
 <template>
   <Layout>
-
     <div class="relative">
+    <video
+      autoplay
+      muted
+      loop
+      class="w-full object-cover bg-[rgba(0,0,0,0.8)] masked-video"
+    >
+      <source
+        src="../assets/css/videos/Recortado2.mp4"
+        type="video/mp4"
+      />
+    </video>
+
+    <!-- <div
+      class="absolute inset-0 flex justify-center items-center text-center text-white font-black text-5xl"
+    >
+  
+      <div class="px-4 sm:px-8 lg:px-16 xl:px-32 opacity-60 text-center">
+        <img
+          src="../../../assets/css/img/HojasDeLogo.png"
+          class="align-center max-w-sm mx-auto"
+          alt=""
+        />
+        Nutriendo ideas y cultivando<span class="block"
+          >innovación SeedCode</span
+        >
+      </div>
+    </div> -->
+  </div>
+
+
   <!-- <img class="w-full h-96 object-cover" src="https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" /> -->
 
   <!-- <div class="absolute inset-0 flex justify-center items-center text-center text-white text-4xl md:text-5xl lg:text-6xl mt-20">
@@ -25,8 +54,6 @@
   </div>
 </div> -->
 
-
-</div>
 <!-- 
 <div class="flex justify-center text-center mt-10 sm:mt-15">
     <div
@@ -94,14 +121,9 @@
         >
         <p class="text-base sm:text-lg font-semibold">Misión</p>
           <p class="text-base sm:text-lg">
-            Nuestra misión es diseñar y desarrollar software de calidad,
-              centrado en las necesidades de nuestros clientes. A través de
-              nuestra experiencia técnica y enfoque orientado al cliente,
-              buscamos superar las expectativas y ofrecer soluciones
-              personalizadas que impulsen la eficiencia, la productividad y el
-              crecimiento empresarial. Nos esforzamos por establecer relaciones
-              duraderas con nuestros clientes, basadas en la confianza, la
-              colaboración y el compromiso con la excelencia.
+            Diseñar y desarrollar software de calidad, enfocado en las necesidades del cliente.
+            Superamos expectativas con soluciones personalizadas que impulsan la eficiencia y el crecimiento empresarial.
+             Establecemos relaciones basadas en la confianza, colaboración y compromiso con la excelencia..
           </p>
         </div>
       </div>

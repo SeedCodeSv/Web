@@ -15,7 +15,6 @@
             <p>+503 7392-1094</p>
           </div>
           <div class="text-white text-center">
-            <p class="font-semibold">Sitio Web</p>
             <a href="https://www.linkedin.com/company/seedcode-sv/">LinkedIn</a>
             <br>
             <a href="https://www.facebook.com/profile.php?id=100095398894114">facebook</a>

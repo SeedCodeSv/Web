@@ -32,21 +32,18 @@
     <div
       class="absolute inset-0 flex justify-center items-center text-center text-white font-black text-5xl"
     >
-    
-      <!-- <div class="px-4 sm:px-8 lg:px-16 xl:px-32 opacity-60">
-        <img src="../../../assets/css/img/LogoSeedCode.png" class="align-center" alt="">
+      <div class="px-4 sm:px-8 lg:px-16 xl:px-32 opacity-60 text-center">
+        <img
+          src="../../../assets/css/img/HojasDeLogo.png"
+          class="align-center max-w-sm mx-auto"
+          alt=""
+        />
         Nutriendo ideas y cultivando<span class="block"
           >innovación SeedCode</span
         >
-      </div> -->
-
-      <div class="px-4 sm:px-8 lg:px-16 xl:px-32 opacity-60 text-center">
-  <img src="../../../assets/css/img/HojasDeLogo.png" class="align-center max-w-sm mx-auto" alt="">
-  Nutriendo ideas y cultivando<span class="block">innovación SeedCode</span>
-</div>
-
+      </div>
     </div>
-  </div>
+  </div> 
 </template>
 
 <script lang="ts" setup></script>
