@@ -2,7 +2,7 @@
   <Layout>
 
     <div class="relative">
-  <img class="w-full h-96 object-cover" src="https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" />
+  <!-- <img class="w-full h-96 object-cover" src="https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" /> -->
 
   <!-- <div class="absolute inset-0 flex justify-center items-center text-center text-white text-4xl md:text-5xl lg:text-6xl mt-20">
   <div class="px-4 sm:px-8 lg:px-16 xl:px-32">
@@ -12,10 +12,10 @@
   </div>
 </div> -->
 
-
+<!-- 
 <div class="absolute inset-0 flex justify-center items-center text-center text-white text-4xl md:text-5xl lg:text-6xl mt-20">
   <div class="px-4 sm:px-8 lg:px-16 xl:px-32 grid grid-cols-2 ">
-    <!-- Columna de la imagen -->
+
     <div class="flex-shrink-0">
       <img src="../assets/css/img/LogoSeedCode.png" alt="Descripción de la imagen" class="w-20 h-20 object-cover rounded-lg">
     </div>
@@ -23,7 +23,7 @@
     </div>
 
   </div>
-</div>
+</div> -->
 
 
 </div>
@@ -54,13 +54,13 @@
     </div>
   </div> -->
 
-  <div class="flex justify-center text-center mt-10 sm:mt-15">
+  <div class="flex justify-center text-center mt-40 sm:mt-15">
   <div class="w-full sm:w-2/3 m-1 align-center text-black rounded-xl p-4">
     <div class="grid sm:grid-cols-1 lg:grid-cols-2">
 
       <div class="mt-4 lg:mt-0 px-5 w-full h-full grid place-content-center place-items-center">
         <div class="p-4">
-          <p class="text-base sm:text-lg">Visión</p>
+          <p class="text-base sm:text-lg font-semibold">Visión</p>
           <p class="text-base sm:text-lg">
             Ser reconocidos como líderes en el desarrollo de software,
             brindando soluciones tecnológicas innovadoras que impulsen el
@@ -92,7 +92,7 @@
         <div
           class="mt-4 lg:mt-0 px-5 w-full h-full grid place-content-center place-items-center"
         >
-        <p class="text-base sm:text-lg">Misión</p>
+        <p class="text-base sm:text-lg font-semibold">Misión</p>
           <p class="text-base sm:text-lg">
             Nuestra misión es diseñar y desarrollar software de calidad,
               centrado en las necesidades de nuestros clientes. A través de

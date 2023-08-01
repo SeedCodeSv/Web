@@ -17,6 +17,9 @@
           <div class="text-white text-center">
             <p class="font-semibold">Sitio Web</p>
             <a href="https://www.linkedin.com/company/seedcode-sv/">LinkedIn</a>
+            <br>
+            <a href="https://www.facebook.com/profile.php?id=100095398894114">facebook</a>
+            
           </div>
         </div>
       </div>
