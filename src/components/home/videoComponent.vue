@@ -19,7 +19,7 @@
     >
       <div class="px-4 sm:px-8 lg:px-16 xl:px-32 opacity-60 text-center">
         <img
-          src="../../../assets/css/img/HojasDeLogo.png"
+          src="../../../assets/img/HojasDeLogo.png"
           class="align-center max-w-sm mx-auto"
           alt=""
         />
