@@ -1,14 +1,16 @@
 <template>
   <div class="relative overflow-hidden">
     <header
-    
-      class="fixed h-auto w-full z-10 lg:px-16 px-4 bg-[rgba(0,0,0,0.8)] sm:flex sm:justify-between sm:items-center sm:px-4 sm:py-3"
+      class="fixed w-full z-10 lg:px-16 px-4 sm:flex sm:justify-between sm:items-center sm:px-4 sm:py-3"
+      :class="
+        navbarColor ? 'color1' : 'color2'
+      "
     >
       <div class="flex items-center justify-between px-4 py-3 sm:p-0">
         <div>
           <img
             class="h-8"
-            src="../../assets/css/img/TextSeedCodeWhite.png"
+            src="../../assets/img/TextSeedCodeWhite.png"
             alt="Workcation"
           />
         </div>
@@ -38,17 +40,22 @@
         class="px-2 pt-2 pb-4 sm:flex sm:p-0"
       >
         <li
-          class="md:p-5 cursor-pointer transition duration-500 block px-2 py-1 text-xl text-white"
+          class="md:p-5 cursor-pointer transition duration-500 block px-2 py-1 text-lg text-white"
         >
           <nuxt-link to="/">Inicio</nuxt-link>
         </li>
         <li
-          class="md:p-5 cursor-pointer transition duration-500 block px-2 py-1 text-xl text-white"
+          class="md:p-5 cursor-pointer transition duration-500 block px-2 py-1 text-lg text-white"
         >
           <nuxt-link to="/contact">Contacto</nuxt-link>
         </li>
         <li
-          class="md:p-5 cursor-pointer transition duration-500 block px-2 py-1 text-xl text-white"
+          class="md:p-5 cursor-pointer transition duration-500 block px-2 py-1 text-lg text-white"
+        >
+          <nuxt-link to="/projects">Nuestros proyectos</nuxt-link>
+        </li>
+        <li
+          class="md:p-5 cursor-pointer transition duration-500 block px-2 py-1 text-lg text-white"
         >
           <nuxt-link to="/aboutPage">Acerca de</nuxt-link>
         </li>
@@ -56,7 +63,9 @@
     </header>
   </div>
 
+ <div ref="navbarRef" class="w-full h-full overflow-y-auto overflow-x-hidden">
   <slot></slot>
+ </div>
 </template>
 
 <script lang="ts" setup>
@@ -64,8 +73,28 @@ import video from "./home/video.vue";
 import { ref } from "vue";
 import { OhVueIcon } from "oh-vue-icons";
 
-// bg-[rgba(0,0,0,0.8)]
+const navbarRef = ref(null);
+
+const navbarColor = computed(() => {
+  const currentRoute = useRoute(); // Obtener el objeto de la ruta actual
+  console.log(currentRoute);
+  // Acceder al nombre de la ruta actual a través del objeto route
+  if (currentRoute.name === "index") {
+    return true;
+  } else {
+    return false;
+  }
+});
+
 const isOpen = ref(false);
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="css" scoped>
+.color1 {
+  background-color: rgba(6, 33, 51, 0.8);
+}
+
+.color2 {
+  background-color: rgba(6, 33, 51, 1);
+}
+</style>

@@ -18,6 +18,7 @@
     "tailwindcss": "^3.3.3"
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
     "nuxt-lazy-load": "^3.0.4",
     "oh-vue-icons": "^1.0.0-rc3",
     "vee-validate": "^4.10.7",

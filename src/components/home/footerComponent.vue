@@ -1,24 +1,72 @@
 <template>
   <!-- component -->
-  <footer class="bg-[rgba(0,0,0,0.8)] dark:bg-gray-900 mt-20">
+  <footer class="mt-20">
     <div class="container px-6 py-8 mx-auto">
-
       <div class="flex items-center justify-center">
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
-          <div class="text-white text-center">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-4">
+          <div class="text-white">
             <p class="font-semibold">Dirección</p>
-            <p>Av. Santa Lucia, Sonzacate, Sonsonate, El Salvador</p>
+            <div class="flex mt-2 w-full">
+              <img
+                class="w-6 h-6 max-h-6"
+                src="../../../assets/icons/ubicacion.png"
+                alt=""
+                srcset=""
+              />
+              <p class=" whitespace-pre-line ml-3">Av. Santa Lucia, Sonzacate, Sonsonate, El Salvador</p>
+            </div>
           </div>
-          <div class="text-white text-center">
+          <div class="text-white">
             <p class="font-semibold">Contacto</p>
-            <p>seedcodesv@gmail.com</p>
-            <p>+503 7392-1094</p>
+            <div class="flex mt-2">
+              <div>
+                <img
+                class="w-6 h-6 max-h-6"
+                src="../../../assets/icons/signo-de-arroba.png"
+                alt=""
+                srcset=""
+              />
+              </div>
+              <p class="ml-3">seedcodesv@gmail.com</p>
+            </div>
+            <div class="flex mt-2">
+              <img
+              class="w-7 h-7 max-h-7"
+                src="../../../assets/icons/ring-phone.png"
+                alt=""
+                srcset=""
+              />
+              <p class="ml-3">(503) 7392-1094</p>
+            </div>
           </div>
-          <div class="text-white text-center">
-            <a href="https://www.linkedin.com/company/seedcode-sv/">LinkedIn</a>
-            <br>
-            <a href="https://www.facebook.com/profile.php?id=100095398894114">facebook</a>
-            
+          <div class="text-white">
+            <p class="font-semibold">Redes sociales</p>
+            <div class="flex mt-2">
+              <img
+              class="w-6 h-6 max-h-6"
+                src="../../../assets/icons/linkedin.png"
+                alt=""
+                srcset=""
+              />
+              <a
+                class="ml-3"
+                href="https://www.linkedin.com/company/seedcode-sv/"
+                >LinkedIn</a
+              >
+            </div>
+            <div class="flex mt-2">
+              <img
+              class="w-6 h-6 max-h-6"
+                src="../../../assets/icons/facebook.png"
+                alt=""
+                srcset=""
+              />
+              <a
+                class="ml-3"
+                href="https://www.facebook.com/profile.php?id=100095398894114"
+                >Facebook</a
+              >
+            </div>
           </div>
         </div>
       </div>
@@ -30,28 +78,8 @@
           Copyright 2023 - Todos los derechos reservados por SeedCode.
         </p>
 
-        <div class="flex mt-3 -mx-2 sm:mt-0">
-          <a
-            href="#"
-            class="mx-2 text-sm text-gray-500 transition-colors duration-300 hover:text-gray-500 dark:hover:text-gray-300"
-            aria-label="Reddit"
-          >
-            Teams
-          </a>
-          <a
-            href="#"
-            class="mx-2 text-sm text-gray-500 transition-colors duration-300 hover:text-gray-500 dark:hover:text-gray-300"
-            aria-label="Reddit"
-          >
-            Privacy
-          </a>
-          <a
-            href="#"
-            class="mx-2 text-sm text-gray-500 transition-colors duration-300 hover:text-gray-500 dark:hover:text-gray-300"
-            aria-label="Reddit"
-          >
-            Cookies
-          </a>
+        <div class="flex -mx-2 sm:mt-0">
+          <img class="w-12" src="../../../assets/img/LogoSeedCode.png" alt="" srcset="">
         </div>
       </div>
     </div>
@@ -59,3 +87,9 @@
 </template>
 
 <script lang="ts" setup></script>
+
+<style scoped>
+footer {
+  background-color: rgb(6, 33, 51);
+}
+</style>

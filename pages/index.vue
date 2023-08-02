@@ -85,7 +85,7 @@
         <div class="w-full h-70 sm:h-auto">
           <img
             class="rounded-xl h-full w-full object-cover"
-            src="../assets/css/img/img-card.jpg"
+            src="../assets/img/img-card.jpg"
           />
         </div>
         <div
@@ -128,7 +128,7 @@
       </div> -->
       <div class="max-w-xs rounded-2xl overflow-hidden shadow-xl bg-white text-black mx-auto mt-6">
   <div class="p-6">
-    <img class="w-20 mx-auto" src="../assets/css/img/e-commerce.png" />
+    <img class="w-20 mx-auto" src="../assets/img/e-commerce.png" />
     <p class="text-center text-lg font-semibold mt-3">E-commerce</p>
     <p class="text-center text-base mt-3 grid place-content-center place-items-center">
       Proporciona herramientas de pago seguras, administración de inventario y
@@ -153,7 +153,7 @@
 
       <div class="max-w-xs rounded-2xl overflow-hidden shadow-xl bg-white text-black mx-auto mt-6">
   <div class="p-6">
-    <img class="w-20 mx-auto" src="../assets/css/img/laptop.png"/>
+    <img class="w-20 mx-auto" src="../assets/img/laptop.png"/>
     <p class="text-center text-lg font-semibold mt-3">Software</p>
     <p class="text-center text-base mt-3 grid place-content-center place-items-center">
       Atrae nuevos clientes con tecnología de vanguardia para impulsar tu
@@ -178,7 +178,7 @@
 
       <div class="max-w-xs rounded-2xl overflow-hidden shadow-xl bg-white text-black mx-auto mt-6">
   <div class="p-6">
-    <img class="w-20 mx-auto" src="../assets/css/img/social-media.png" />
+    <img class="w-20 mx-auto" src="../assets/img/social-media.png" />
     <p class="text-center text-lg font-semibold mt-3">Redes Sociales</p>
     <p class="text-center text-base mt-3 grid place-content-center place-items-center">
       Descubre el poder de nuestras estrategias innovadoras para destacar
@@ -202,7 +202,7 @@
 
       <div class="max-w-xs rounded-2xl overflow-hidden shadow-xl bg-white text-black mx-auto mt-6">
   <div class="p-6">
-    <img class="w-20 mx-auto" src="../assets/css/img/navegador.png" />
+    <img class="w-20 mx-auto" src="../assets/img/navegador.png" />
     <p class="text-center text-lg font-semibold mt-3">Sitios Web</p>
     <p class="text-center text-base mt-3 grid place-content-center place-items-center">
       Confía en nuestra experiencia para ofrecerte resultados
@@ -232,7 +232,7 @@
 
       <div class="max-w-xs rounded-2xl overflow-hidden shadow-xl bg-white text-black mx-auto mt-6">
   <div class="p-6">
-    <img class="w-20 mx-auto" src="../assets/css/img/soporte-tecnico.png" />
+    <img class="w-20 mx-auto" src="../assets/img/soporte-tecnico.png" />
     <p class="text-center text-lg font-semibold mt-3">Optimización Web</p>
     <p class="text-center text-base mt-3 grid place-content-center place-items-center">
       Aumenta tu presencia y atrae a más clientes potenciales hacia tu
@@ -258,7 +258,7 @@
 
       <div class="max-w-xs rounded-2xl overflow-hidden shadow-xl bg-white text-black mx-auto mt-6">
   <div class="p-6">
-    <img class="w-20 mx-auto" src="../assets/css/img/Soporte.png" />
+    <img class="w-20 mx-auto" src="../assets/img/Soporte.png" />
     <p class="text-center text-lg font-semibold mt-3">Soporte</p>
     <p class="text-center text-base mt-3 grid place-content-center place-items-center">
       Contamos contigo para alcanzar el éxito con apoyo y guía
@@ -281,7 +281,7 @@
 
   <div class="max-w-xs rounded-2xl overflow-hidden shadow-xl bg-white text-black mx-auto mt-6">
   <div class="p-6">
-    <img class="w-20 mx-auto"  src="../assets/css/img/impresora.png"/>
+    <img class="w-20 mx-auto"  src="../assets/img/impresora.png"/>
     <p class="text-center text-lg font-semibold mt-3">Facturación Electrónica</p>
     <p class="text-center text-base mt-3 grid place-content-center place-items-center">
       Obtén soluciones tributarias a la medida y cambia a nuestra plataforma para una experiencia más conveniente y ajustada a tus requerimientos.
@@ -293,7 +293,7 @@
 
 <div class="max-w-xs rounded-2xl overflow-hidden shadow-xl bg-white text-black mx-auto mt-6">
   <div class="p-6">
-    <img class="w-20 mx-auto"  src="../assets/css/img/diseno.png"/>
+    <img class="w-20 mx-auto"  src="../assets/img/diseno.png"/>
     <p class="text-center text-lg font-semibold mt-3">Diseño</p>
     <p class="text-center text-base mt-3 grid place-content-center place-items-center">
       Ofrecemos servicios de diseño creativo y profesional para satisfacer tus necesidades visuales y destacar tu marca..
@@ -325,22 +325,14 @@
     <div class="overflow-hidden rounded-lg shadow-lg cursor-pointer">
       <img
         class="object-cover w-full h-48"
-        src="../assets/css/img/Img1.jpg"
+        src="../assets/img/Img1.jpg"
         alt="Flower and sky"
       />
     </div>
     <div class="overflow-hidden rounded-lg shadow-lg cursor-pointer">
       <img
         class="object-cover w-full h-48"
-        src="../assets/css/img/Img2.jpg"
-        alt="Flower and sky"
-      />
-    </div>
-
-    <div class="overflow-hidden rounded-lg shadow-lg cursor-pointer">
-      <img
-        class="object-cover w-full h-48"
-        src="../assets/css/img/Img3.jpg"
+        src="../assets/img/Img2.jpg"
         alt="Flower and sky"
       />
     </div>
@@ -348,7 +340,15 @@
     <div class="overflow-hidden rounded-lg shadow-lg cursor-pointer">
       <img
         class="object-cover w-full h-48"
-        src="../assets/css/img/Img4.jpg"
+        src="../assets/img/Img3.jpg"
+        alt="Flower and sky"
+      />
+    </div>
+
+    <div class="overflow-hidden rounded-lg shadow-lg cursor-pointer">
+      <img
+        class="object-cover w-full h-48"
+        src="../assets/img/Img4.jpg"
         alt="Flower and sky"
       />
     </div>

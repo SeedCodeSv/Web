@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@font-face {
+    font-family: "OpenSauceOneRegular";
+    src: url("../fonts/OpenSauceOne-Regular.ttf");
+}
+
+body{
+    font-family:"OpenSauceOneRegular";
+}

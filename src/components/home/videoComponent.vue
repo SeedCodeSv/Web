@@ -21,7 +21,7 @@
       autoplay
       muted
       loop
-      class="w-full h-auto object-cover bg-[rgba(0,0,0,0.8)] masked-video"
+      class="w-full h-[350px] sm:h-[400px] md:h-[500px] lg:h-[600px] xl:h-[700px] object-cover bg-[rgba(0,0,0,0.8)] masked-video"
     >
       <source
         src="https://v4.cdnpk.net/videvo_files/video/free/video0467/large_watermarked/_import_615a995eea3f30.45528318_FPpreview.mp4"
