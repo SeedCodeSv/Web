@@ -20,7 +20,7 @@
           </p>
           <p>(2020 - 2021)</p>
           <p class="text-sm md:text-base lg:text-lg mt-4">
-            Siendo el primer cliente que confio en el software de caidad que le
+            Siendo el primer cliente que confió en el software de calidad que le
             ofrecimos conteniendo funciones como
           </p>
           <ul class="mt-5">
@@ -28,16 +28,16 @@
               ✓ Consultas en tiempo real
             </li>
             <li class="mt-2 text-sm lg:text-base">
-              ✓ Administracion de citas
+              ✓ Administración de citas
             </li>
             <li class="mt-2 text-sm lg:text-base">
               ✓ Recordatorios personalizados
             </li>
             <li class="mt-2 text-sm lg:text-base">
-              ✓ Aplicacion para clientes
+              ✓ Aplicación para clientes
             </li>
             <li class="mt-2 text-sm lg:text-base">
-              ✓ Administracion de ventas
+              ✓ Administración de ventas
             </li>
           </ul>
         </div>
@@ -55,7 +55,7 @@
         <div class="w-[65%] hidden lg:flex p-8">
           <img
             class="rounded-2xl shadow"
-            src="../assets/projects/web.png"
+            src="../assets/projects/afraco.png"
             alt=""
           />
         </div>
@@ -73,23 +73,23 @@
               ✓ Ventas en tiempo real
             </li>
             <li class="mt-2 text-sm lg:text-base">
-              ✓ Reporteria personalizada
+              ✓ Reportería personalizada
             </li>
             <li class="mt-2 text-sm lg:text-base">
-              ✓ Adminstreacion de ventas
+              ✓ Administración de ventas
             </li>
             <li class="mt-2 text-sm lg:text-base">
-              ✓ Gestion de inventario
+              ✓ Gestión de inventario
             </li>
             <li class="mt-2 text-sm lg:text-base">
-              ✓ Lector de codigos de barra
+              ✓ Lector de códigos de barra
             </li>
           </ul>
         </div>
         <div class="w-[100%] lg:w-[35%] flex lg:hidden p-8">
           <img
             class="rounded-2xl shadow"
-            src="../assets/projects/web.png"
+            src="../assets/projects/afraco.png"
             alt=""
           />
         </div>
@@ -125,7 +125,7 @@
               ✓ Reportes personalizados
             </li>
             <li class="mt-2 text-sm lg:text-base">
-              ✓ Administracion de inventario
+              ✓ Administración de inventario
             </li>
             <li class="mt-2 text-sm lg:text-base">
               Entre otros...
@@ -135,13 +135,61 @@
         <div class="w-[100%] lg:w-[65%] p-8">
           <img
             class="rounded-2xl shadow"
-            src="../assets/projects/afraco.png"
+            src="../assets/projects/web.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+
+
+    <div class="w-screen flex justify-end p-10 animate__animated animate__fadeInRight">
+      <div class="w-[95vw] lg:w-[80vw] xl:w-[70vw]  flex flex-col lg:flex-row border shadow rounded-2xl">
+        <div class="w-[65%] hidden lg:flex p-8">
+          <img
+            class="rounded-2xl shadow"
+            src="../assets/projects/PuntoDeVentas.png"
+            alt=""
+          />
+        </div>
+        <div class="w-[100%] lg:w-[35%] h-full p-8">
+          <p class="font-semibold text-xl">
+            SeedCode SV
+          </p>
+          <p>(2023)</p>
+          <p class="text-sm md:text-base lg:text-lg mt-4">
+            Software diseñado para la administración de ventas e inventario
+            contiene funciones como:
+          </p>
+          <ul class="mt-5">
+            <li class="mt-2 text-sm lg:text-base">
+              ✓ Carrito de compras
+            </li>
+            <li class="mt-2 text-sm lg:text-base">
+              ✓ Ventas en tiempo real
+            </li>
+            <li class="mt-2 text-sm lg:text-base">
+              ✓ Administración de ventas
+            </li>
+            <li class="mt-2 text-sm lg:text-base">
+              ✓ Gestión de inventario
+            </li>
+            <li class="mt-2 text-sm lg:text-base">
+              ✓ Lector de códigos de barra o pantalla táctil
+            </li>
+          </ul>
+        </div>
+        <div class="w-[100%] lg:w-[35%] flex lg:hidden p-8">
+          <img
+            class="rounded-2xl shadow"
+            src="../assets/projects/PuntoDeVentas.png"
             alt=""
           />
         </div>
       </div>
     </div>
     
+
   </layout>
   <footer-component/>
 </template>
