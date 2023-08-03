@@ -2,9 +2,7 @@
   <div class="relative overflow-hidden">
     <header
       class="fixed w-full z-10 lg:px-16 px-4 sm:flex sm:justify-between sm:items-center sm:px-4 sm:py-3"
-      :class="
-        navbarColor ? 'color1' : 'color2'
-      "
+      :class="navbarColor ? 'color1' : 'color2'"
     >
       <div class="flex items-center justify-between px-4 py-3 sm:p-0">
         <div>
@@ -39,33 +37,42 @@
         :class="isOpen ? 'block' : 'hidden'"
         class="px-2 pt-2 pb-4 sm:flex sm:p-0"
       >
+  
         <li
-          class="md:p-5 cursor-pointer transition duration-500 block px-2 py-1 text-lg text-white"
+          class="md:p-5 cursor-pointer transition duration-500 px-2 py-1 text-lg text-white flex items-center"
         >
-          <nuxt-link to="/">Inicio</nuxt-link>
+
+          <nuxt-link to="/" class="flex items-center">
+            <!-- Agregamos flex y items-center para alinear el texto con la imagen horizontalmente -->
+            Inicio
+          </nuxt-link>
         </li>
+
         <li
-          class="md:p-5 cursor-pointer transition duration-500 block px-2 py-1 text-lg text-white"
+          class="md:p-5 cursor-pointer transition duration-500 px-2 py-1 text-lg text-white flex items-center"
         >
+
           <nuxt-link to="/contact">Contacto</nuxt-link>
         </li>
         <li
-          class="md:p-5 cursor-pointer transition duration-500 block px-2 py-1 text-lg text-white"
+          class="md:p-5 cursor-pointer transition duration-500 px-2 py-1 text-lg text-white flex items-center"
         >
-          <nuxt-link to="/projects">Nuestros proyectos</nuxt-link>
+
+          <nuxt-link to="/projects">Proyectos</nuxt-link>
         </li>
         <li
-          class="md:p-5 cursor-pointer transition duration-500 block px-2 py-1 text-lg text-white"
+          class="md:p-5 cursor-pointer transition duration-500 px-2 py-1 text-lg text-white flex items-center"
         >
+
           <nuxt-link to="/aboutPage">Acerca de</nuxt-link>
         </li>
       </nav>
     </header>
   </div>
 
- <div ref="navbarRef" class="w-full h-full overflow-y-auto overflow-x-hidden">
-  <slot></slot>
- </div>
+  <div ref="navbarRef" class="w-full h-full overflow-y-auto overflow-x-hidden">
+    <slot></slot>
+  </div>
 </template>
 
 <script lang="ts" setup>
