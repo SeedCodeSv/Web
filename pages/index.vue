@@ -2,7 +2,7 @@
   <Layout />
 
   <head>
-    <title>Seed Code</title>
+    <title>SeedCode</title>
   </head>
 
   <videoComponent></videoComponent>
@@ -35,7 +35,6 @@
         </div>
       </div>
     </div>
-
     <div class="max-w-sm mx-auto bg-white rounded-lg shadow-xl p-6">
       <div class="p-3 flex flex-col items-center">
         <p
@@ -60,7 +59,6 @@
         </div>
       </div>
     </div>
-
     <div class="max-w-sm mx-auto bg-white rounded-lg shadow-xl p-6">
       <div class="p-3 flex flex-col items-center">
         <p

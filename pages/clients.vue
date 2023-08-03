@@ -11,13 +11,13 @@
           />
         </div>
         <div>
-          <h2 class="text-gray-800 text-3xl font-semibold">
+          <h2 class="text-gray-800 text-xl font-semibold opacity-75 mt-2">
             Afraco Corporaciones SA de CV
           </h2>
           <p class="mt-2 text-gray-600"></p>
-          <div class="flex items-center justify-center">
+          <!-- <div class="flex items-center justify-center">
             <img src="../assets/img/HojasDeLogo.png" class="w-20 h-auto p-3 rounded-full" />
-          </div>
+          </div> -->
         </div>
         <div class="flex justify-end mt-4">
           <a href="#" class="text-xl font-medium text-indigo-500">SeedCode</a>
@@ -32,13 +32,13 @@
           />
         </div>
         <div>
-          <h2 class="text-gray-800 text-3xl font-semibold">
+          <h2 class="text-gray-800 text-xl font-semibold opacity-75 mt-2">
             Clínica de Diagnostico Veterinaria
           </h2>
           <p class="mt-2 text-gray-600"></p>
-          <div class="flex items-center justify-center">
+          <!-- <div class="flex items-center justify-center">
             <img src="../assets/img/HojasDeLogo.png" class="w-20 h-auto p-3 rounded-full" />
-          </div>
+          </div> -->
         </div>
         <div class="flex justify-end mt-4">
           <a href="#" class="text-xl font-medium text-indigo-500">SeedCode</a>
@@ -52,13 +52,13 @@
           />
         </div>
         <div>
-          <h2 class="text-gray-800 text-3xl font-semibold">
+          <h2 class="text-gray-800 text-xl font-semibold opacity-75 mt-2">
             Funeraria Lirios de los Valle
           </h2>
           <p class="mt-2 text-gray-600"></p>
-          <div class="flex items-center justify-center">
+          <!-- <div class="flex items-center justify-center">
             <img src="../assets/img/HojasDeLogo.png" class="w-20 h-auto p-3 rounded-full" />
-          </div>
+          </div> -->
         </div>
         <div class="flex justify-end mt-4">
           <a href="#" class="text-xl font-medium text-indigo-500">SeedCode</a>

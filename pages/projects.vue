@@ -11,7 +11,7 @@
         con calidad y satisfacción garantizada.
       </p>
     </div>
-
+    <!-- First -->
     <div class="w-screen flex justify-start p-10 animate__animated animate__fadeInLeft">
       <div class="w-[95vw] lg:w-[80vw] xl:w-[70vw] flex flex-col lg:flex-row border shadow rounded-2xl">
         <div class="w-[100%] lg:w-[35%] h-full p-8">
@@ -50,12 +50,13 @@
         </div>
       </div>
     </div>
+    <!-- 2 -->
     <div class="w-screen flex justify-end p-10 animate__animated animate__fadeInRight">
       <div class="w-[95vw] lg:w-[80vw] xl:w-[70vw]  flex flex-col lg:flex-row border shadow rounded-2xl">
         <div class="w-[65%] hidden lg:flex p-8">
           <img
             class="rounded-2xl shadow"
-            src="../assets/projects/afraco.png"
+            src="../assets/projects/web.png"
             alt=""
           />
         </div>
@@ -89,12 +90,13 @@
         <div class="w-[100%] lg:w-[35%] flex lg:hidden p-8">
           <img
             class="rounded-2xl shadow"
-            src="../assets/projects/afraco.png"
+            src="../assets/projects/web.png"
             alt=""
           />
         </div>
       </div>
     </div>
+    <!-- 3 -->
     <div class="w-screen flex justify-start p-10 animate__animated animate__fadeInLeft">
       <div class="w-[95vw] lg:w-[80vw] xl:w-[70vw]  flex flex-col lg:flex-row border shadow rounded-2xl">
         <div class="w-[100%] lg:w-[35%] h-full p-8">
@@ -135,13 +137,13 @@
         <div class="w-[100%] lg:w-[65%] p-8">
           <img
             class="rounded-2xl shadow"
-            src="../assets/projects/web.png"
+            src="../assets/projects/afraco.png"
             alt=""
           />
         </div>
       </div>
     </div>
-
+    <!-- 3 -->
 
     <div class="w-screen flex justify-end p-10 animate__animated animate__fadeInRight">
       <div class="w-[95vw] lg:w-[80vw] xl:w-[70vw]  flex flex-col lg:flex-row border shadow rounded-2xl">
