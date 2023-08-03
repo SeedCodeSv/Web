@@ -8,4 +8,17 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  modules: ["nuxt-lazy-load", "@nuxt/image"],
+  lazyLoad: {
+    images: true,
+    videos: true,
+    audios: true,
+    iframes: true,
+    native: false,
+    directiveOnly: false,
+    defaultImage: true,
+  },
+  image: {
+    dir:"assets/img"
+  },
 });

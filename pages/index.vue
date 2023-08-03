@@ -5,22 +5,22 @@
     <title>SeedCode</title>
   </head>
 
-  <videoComponent></videoComponent>
+  <VideoComponent></VideoComponent>
 
   <div
-    class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 p-5 md:p-10 mt-15"
+    class="grid grid-cols-1 gap-2 p-5 md:grid-cols-2 lg:grid-cols-3 md:p-10 mt-15"
   >
-    <div class="max-w-sm mx-auto bg-white rounded-lg shadow-xl p-6">
-      <div class="p-3 flex flex-col items-center">
+    <div class="max-w-sm p-6 mx-auto bg-white rounded-lg shadow-xl">
+      <div class="flex flex-col items-center p-3">
         <p
-          class="text-center font-black text-5xl md:text-7xl p-3 md:p-5 items-center drop-shadow-xl opacity-75"
+          class="items-center p-3 text-5xl font-black text-center opacity-75 md:text-7xl md:p-5 drop-shadow-xl"
         >
           6+
         </p>
-        <p class="text-center text-lg md:text-xl font-semibold">
+        <p class="text-lg font-semibold text-center md:text-xl">
           Proyectos Completados
         </p>
-        <p class="text-center text-base md:text-base">
+        <p class="text-base text-center md:text-base">
           Nos hemos especializado en la creación de soluciones digitales de
           excelencia y vanguardia
         </p>
@@ -35,15 +35,15 @@
         </div>
       </div>
     </div>
-    <div class="max-w-sm mx-auto bg-white rounded-lg shadow-xl p-6">
-      <div class="p-3 flex flex-col items-center">
+    <div class="max-w-sm p-6 mx-auto bg-white rounded-lg shadow-xl">
+      <div class="flex flex-col items-center p-3">
         <p
-          class="text-center font-black text-5xl md:text-7xl p-3 md:p-5 items-center drop-shadow-xl opacity-75"
+          class="items-center p-3 text-5xl font-black text-center opacity-75 md:text-7xl md:p-5 drop-shadow-xl"
         >
           5+
         </p>
-        <p class="text-center text-lg md:text-xl font-semibold">Clientes</p>
-        <p class="text-center text-base md:text-base">
+        <p class="text-lg font-semibold text-center md:text-xl">Clientes</p>
+        <p class="text-base text-center md:text-base">
           Nuestra sólida cartera de proyectos exitosos refleja la confianza de
           nuestros clientes y nuestro enfoque profesional en la satisfacción del
           cliente.
@@ -59,17 +59,17 @@
         </div>
       </div>
     </div>
-    <div class="max-w-sm mx-auto bg-white rounded-lg shadow-xl p-6">
-      <div class="p-3 flex flex-col items-center">
+    <div class="max-w-sm p-6 mx-auto bg-white rounded-lg shadow-xl">
+      <div class="flex flex-col items-center p-3">
         <p
-          class="text-center font-black text-5xl md:text-7xl p-3 md:p-5 items-center drop-shadow-xl opacity-75"
+          class="items-center p-3 text-5xl font-black text-center opacity-75 md:text-7xl md:p-5 drop-shadow-xl"
         >
           4+
         </p>
-        <p class="text-center text-lg md:text-xl font-semibold">
+        <p class="text-lg font-semibold text-center md:text-xl">
           Años de Experiencia
         </p>
-        <p class="text-center text-base md:text-base">
+        <p class="text-base text-center md:text-base">
           Nuestra dedicación y experiencia nos han llevado a ser líderes
           expertos
         </p>
@@ -87,18 +87,19 @@
   </div>
 
   <div class="flex justify-center text-center bg-[#062133] mt-10 sm:mt-15">
-    <div class="w-full sm:w-2/3 m-1 justify-center text-white rounded-xl p-4">
+    <div class="justify-center w-full p-4 m-1 text-white sm:w-2/3 rounded-xl">
       <div class="grid sm:grid-cols-1 lg:grid-cols-2">
         <div class="w-full h-70 sm:h-auto">
-          <img
-            class="rounded-xl h-full w-full object-cover"
-            src ="../assets/img/img-card.jpg"
+          <nuxt-img
+            class="object-cover w-full h-full rounded-xl"
+            src ="/img-card.jpg"
+            loading="lazy"
           />
         </div>
         <div
-          class="mt-4 lg:mt-0 px-5 w-full h-full grid place-content-center place-items-center"
+          class="grid w-full h-full px-5 mt-4 lg:mt-0 place-content-center place-items-center"
         >
-          <p class="text-base sm:text-lg opacity-75">
+          <p class="text-base opacity-75 sm:text-lg">
             SeedCode, una empresa líder en servicios tecnológicos, proporciona
             soluciones innovadoras y personalizadas para impulsar el crecimiento
             de negocios. Con un equipo altamente capacitado, nos enfocamos en
@@ -112,21 +113,21 @@
 
   <div class="mt-20">
     <div class="">
-      <h5 class="text-center text-black font-black opacity-75 text-4xl">
+      <h5 class="text-4xl font-black text-center text-black opacity-75">
         Servicios
       </h5>
     </div>
     <div
-      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-11 gap-y-11 mt-4 p-10"
+      class="grid grid-cols-1 p-10 mt-4 md:grid-cols-2 lg:grid-cols-4 gap-x-11 gap-y-11"
     >
       <div
-        class="max-w-xs rounded-2xl overflow-hidden shadow-xl bg-white text-black mx-auto mt-6"
+        class="max-w-xs mx-auto mt-6 overflow-hidden text-black bg-white shadow-xl rounded-2xl"
       >
         <div class="p-6">
-          <img class="w-20 mx-auto" src="../assets/img/e-commerce.png" />
-          <p class="text-center text-lg font-semibold mt-3">E-commerce</p>
+          <nuxt-img class="w-20 mx-auto" src="../assets/img/e-commerce.png" />
+          <p class="mt-3 text-lg font-semibold text-center">E-commerce</p>
           <p
-            class="text-center text-base mt-3 grid place-content-center place-items-center"
+            class="grid mt-3 text-base text-center place-content-center place-items-center"
           >
             Proporciona herramientas de pago seguras, administración de
             inventario y seguimiento de pedidos para una experiencia de compra
@@ -135,13 +136,13 @@
         </div>
       </div>
       <div
-        class="max-w-xs rounded-2xl overflow-hidden shadow-xl bg-white text-black mx-auto mt-6"
+        class="max-w-xs mx-auto mt-6 overflow-hidden text-black bg-white shadow-xl rounded-2xl"
       >
         <div class="p-6">
-          <img class="w-20 mx-auto" src="../assets/img/laptop.png" />
-          <p class="text-center text-lg font-semibold mt-3">Software</p>
+          <nuxt-img class="w-20 mx-auto" src="../assets/img/laptop.png" />
+          <p class="mt-3 text-lg font-semibold text-center">Software</p>
           <p
-            class="text-center text-base mt-3 grid place-content-center place-items-center"
+            class="grid mt-3 text-base text-center place-content-center place-items-center"
           >
             Atrae nuevos clientes con tecnología de vanguardia para impulsar tu
             negocio hacia el éxito.
@@ -150,13 +151,13 @@
       </div>
 
       <div
-        class="max-w-xs rounded-2xl overflow-hidden shadow-xl bg-white text-black mx-auto mt-6"
+        class="max-w-xs mx-auto mt-6 overflow-hidden text-black bg-white shadow-xl rounded-2xl"
       >
         <div class="p-6">
-          <img class="w-20 mx-auto" src="../assets/img/social-media.png" />
-          <p class="text-center text-lg font-semibold mt-3">Redes Sociales</p>
+          <nuxt-img class="w-20 mx-auto" src="../assets/img/social-media.png" />
+          <p class="mt-3 text-lg font-semibold text-center">Redes Sociales</p>
           <p
-            class="text-center text-base mt-3 grid place-content-center place-items-center"
+            class="grid mt-3 text-base text-center place-content-center place-items-center"
           >
             Descubre el poder de nuestras estrategias innovadoras para destacar
             en el mercado.
@@ -165,13 +166,13 @@
       </div>
 
       <div
-        class="max-w-xs rounded-2xl overflow-hidden shadow-xl bg-white text-black mx-auto mt-6"
+        class="max-w-xs mx-auto mt-6 overflow-hidden text-black bg-white shadow-xl rounded-2xl"
       >
         <div class="p-6">
-          <img class="w-20 mx-auto" src="../assets/img/navegador.png" />
-          <p class="text-center text-lg font-semibold mt-3">Sitios Web</p>
+          <nuxt-img class="w-20 mx-auto" src="../assets/img/navegador.png" />
+          <p class="mt-3 text-lg font-semibold text-center">Sitios Web</p>
           <p
-            class="text-center text-base mt-3 grid place-content-center place-items-center"
+            class="grid mt-3 text-base text-center place-content-center place-items-center"
           >
             Confía en nuestra experiencia para ofrecerte resultados
             excepcionales y una experiencia del usuario inigualable.
@@ -180,13 +181,13 @@
       </div>
 
       <div
-        class="max-w-xs rounded-2xl overflow-hidden shadow-xl bg-white text-black mx-auto mt-6"
+        class="max-w-xs mx-auto mt-6 overflow-hidden text-black bg-white shadow-xl rounded-2xl"
       >
         <div class="p-6">
-          <img class="w-20 mx-auto" src="../assets/img/soporte-tecnico.png" />
-          <p class="text-center text-lg font-semibold mt-3">Optimización Web</p>
+          <nuxt-img class="w-20 mx-auto" src="../assets/img/soporte-tecnico.png" />
+          <p class="mt-3 text-lg font-semibold text-center">Optimización Web</p>
           <p
-            class="text-center text-base mt-3 grid place-content-center place-items-center"
+            class="grid mt-3 text-base text-center place-content-center place-items-center"
           >
             Aumenta tu presencia y atrae a más clientes potenciales hacia tu
             negocio.
@@ -195,13 +196,13 @@
       </div>
 
       <div
-        class="max-w-xs rounded-2xl overflow-hidden shadow-xl bg-white text-black mx-auto mt-6"
+        class="max-w-xs mx-auto mt-6 overflow-hidden text-black bg-white shadow-xl rounded-2xl"
       >
         <div class="p-6">
-          <img class="w-20 mx-auto" src="../assets/img/Soporte.png" />
-          <p class="text-center text-lg font-semibold mt-3">Soporte</p>
+          <nuxt-img class="w-20 mx-auto" src="../assets/img/Soporte.png" />
+          <p class="mt-3 text-lg font-semibold text-center">Soporte</p>
           <p
-            class="text-center text-base mt-3 grid place-content-center place-items-center"
+            class="grid mt-3 text-base text-center place-content-center place-items-center"
           >
             Contamos contigo para alcanzar el éxito con apoyo y guía
             personalizados.
@@ -210,15 +211,15 @@
       </div>
 
       <div
-        class="max-w-xs rounded-2xl overflow-hidden shadow-xl bg-white text-black mx-auto mt-6"
+        class="max-w-xs mx-auto mt-6 overflow-hidden text-black bg-white shadow-xl rounded-2xl"
       >
         <div class="p-6">
-          <img class="w-20 mx-auto" src="../assets/img/impresora.png" />
-          <p class="text-center text-lg font-semibold mt-3">
+          <nuxt-img class="w-20 mx-auto" src="../assets/img/impresora.png" />
+          <p class="mt-3 text-lg font-semibold text-center">
             Facturación Electrónica
           </p>
           <p
-            class="text-center text-base mt-3 grid place-content-center place-items-center"
+            class="grid mt-3 text-base text-center place-content-center place-items-center"
           >
             Obtén soluciones tributarias a la medida y cambia a nuestra
             plataforma para una experiencia más conveniente y ajustada a tus
@@ -228,13 +229,13 @@
       </div>
 
       <div
-        class="max-w-xs rounded-2xl overflow-hidden shadow-xl bg-white text-black mx-auto mt-6"
+        class="max-w-xs mx-auto mt-6 overflow-hidden text-black bg-white shadow-xl rounded-2xl"
       >
         <div class="p-6">
-          <img class="w-20 mx-auto" src="../assets/img/diseno.png" />
-          <p class="text-center text-lg font-semibold mt-3">Diseño</p>
+          <nuxt-img class="w-20 mx-auto" src="/diseno.png" />
+          <p class="mt-3 text-lg font-semibold text-center">Diseño</p>
           <p
-            class="text-center text-base mt-3 grid place-content-center place-items-center"
+            class="grid mt-3 text-base text-center place-content-center place-items-center"
           >
             Ofrecemos servicios de diseño creativo y profesional para satisfacer
             tus necesidades visuales y destacar tu marca..
@@ -245,36 +246,40 @@
   </div>
 
   <div
-    class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 w-full mt-20"
+    class="grid w-full grid-cols-1 gap-6 mt-20 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
   >
     <div class="overflow-hidden rounded-lg shadow-lg cursor-pointer">
-      <img
+      <nuxt-img
         class="object-cover w-full h-48"
-        src="../assets/img/Img1.jpg"
+        src="/Img1.jpg"
         alt="Flower and sky"
+        loading="lazy"
       />
     </div>
     <div class="overflow-hidden rounded-lg shadow-lg cursor-pointer">
-      <img
+      <nuxt-img
         class="object-cover w-full h-48"
-        src="../assets/img/Img2.jpg"
+        src="/Img2.jpg"
         alt="Flower and sky"
-      />
-    </div>
-
-    <div class="overflow-hidden rounded-lg shadow-lg cursor-pointer">
-      <img
-        class="object-cover w-full h-48"
-        src="../assets/img/Img3.jpg"
-        alt="Flower and sky"
+        loading="lazy"
       />
     </div>
 
     <div class="overflow-hidden rounded-lg shadow-lg cursor-pointer">
-      <img
+      <nuxt-img
         class="object-cover w-full h-48"
-        src="../assets/img/Img4.jpg"
+        src="/Img3.jpg"
         alt="Flower and sky"
+        loading="lazy"
+      />
+    </div>
+
+    <div class="overflow-hidden rounded-lg shadow-lg cursor-pointer">
+      <nuxt-img
+        class="object-cover w-full h-48"
+        src="/Img4.jpg"
+        alt="Flower and sky"
+        loading="lazy"
       />
     </div>
   </div>
@@ -282,8 +287,9 @@
 </template>
 
 <script lang="ts" setup>
-import videoComponent from "../src/components/home/videoComponent.vue";
+import VideoComponent from "../src/components/home/VideoComponent.vue";
 import Layout from "../src/components/Layout.vue";
 import footerComponent from "../src/components/home/footerComponent.vue";
 import NuxtLazyLoad from 'nuxt-lazy-load'
+import IMG4 from "/assets/img/Img4.jpg"
 </script>
