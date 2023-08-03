@@ -92,7 +92,7 @@
         <div class="w-full h-70 sm:h-auto">
           <img
             class="rounded-xl h-full w-full object-cover"
-            src="../assets/img/img-card.jpg"
+            src ="../assets/img/img-card.jpg"
           />
         </div>
         <div
@@ -285,4 +285,5 @@
 import videoComponent from "../src/components/home/videoComponent.vue";
 import Layout from "../src/components/Layout.vue";
 import footerComponent from "../src/components/home/footerComponent.vue";
+import NuxtLazyLoad from 'nuxt-lazy-load'
 </script>
