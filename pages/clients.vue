@@ -5,7 +5,7 @@
     >
       <div class="max-w-md py-4 px-8 bg-white shadow-xl rounded-lg my-20">
         <div class="flex justify-center md:justify-end -mt-16">
-          <img
+          <nuxt-img
             class="w-auto h-20 object-cover rounded-full border-2 border-indigo-500"
             src="clients/logo.png"
           />
@@ -26,7 +26,7 @@
 
       <div class="max-w-md py-4 px-8 bg-white shadow-xl rounded-lg my-20">
         <div class="flex justify-center md:justify-end -mt-16">
-          <img
+          <nuxt-img
             class="w-20 h-20 object-cover rounded-full border-2 border-indigo-500"
             src="clients/Clinica.png"
           />
@@ -46,7 +46,7 @@
       </div>
       <div class="max-w-md py-4 px-8 bg-white shadow-xl rounded-lg my-20">
         <div class="flex justify-center md:justify-end -mt-16">
-          <img
+          <nuxt-img
             class="w-20 h-20 object-cover rounded-full border-2 border-indigo-500"
             src="clients/Funeraria.svg"
           />
