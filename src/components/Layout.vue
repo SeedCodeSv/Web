@@ -8,9 +8,9 @@
     >
       <div class="flex items-center justify-between px-4 py-3 sm:p-0">
         <div>
-          <img
+          <nuxt-img
             class="h-8"
-            src="../../assets/img/TextSeedCodeWhite.png"
+            src="img/TextSeedCodeWhite.png"
             alt="Workcation"
           />
         </div>

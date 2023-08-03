@@ -18,9 +18,9 @@
           </div>
 
           <div class="w-full h-70 sm:h-auto">
-            <img
+            <nuxt-img
               class="rounded-xl h-full w-full object-cover"
-              src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHNvZnR3YXJlJTIwY29tcGFueXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              src="img/vision-img.jpg"
               alt="Descripción de la imagen"
             />
           </div>
@@ -32,9 +32,9 @@
       <div class="w-full sm:w-2/3 m-1 align-center text-black rounded-xl p-4">
         <div class="grid sm:grid-cols-1 lg:grid-cols-2">
           <div class="w-full h-70 sm:h-auto">
-            <img
+            <nuxt-img
               class="rounded-xl h-full w-full object-cover"
-              src="../assets/img/mision.jpg"
+              src="img/mision.jpg"
             />
           </div>
           <div

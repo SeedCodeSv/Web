@@ -92,7 +92,7 @@
         <div class="w-full h-70 sm:h-auto">
           <nuxt-img
             class="object-cover w-full h-full rounded-xl"
-            src ="/img-card.jpg"
+            src ="img/img-card.jpg"
             loading="lazy"
           />
         </div>
@@ -124,7 +124,7 @@
         class="max-w-xs mx-auto mt-6 overflow-hidden text-black bg-white shadow-xl rounded-2xl"
       >
         <div class="p-6">
-          <nuxt-img class="w-20 mx-auto" src="../assets/img/e-commerce.png" />
+          <nuxt-img class="w-20 mx-auto" src="img/e-commerce.png" />
           <p class="mt-3 text-lg font-semibold text-center">E-commerce</p>
           <p
             class="grid mt-3 text-base text-center place-content-center place-items-center"
@@ -139,7 +139,7 @@
         class="max-w-xs mx-auto mt-6 overflow-hidden text-black bg-white shadow-xl rounded-2xl"
       >
         <div class="p-6">
-          <nuxt-img class="w-20 mx-auto" src="../assets/img/laptop.png" />
+          <nuxt-img class="w-20 mx-auto" src="img/laptop.png" />
           <p class="mt-3 text-lg font-semibold text-center">Software</p>
           <p
             class="grid mt-3 text-base text-center place-content-center place-items-center"
@@ -154,7 +154,7 @@
         class="max-w-xs mx-auto mt-6 overflow-hidden text-black bg-white shadow-xl rounded-2xl"
       >
         <div class="p-6">
-          <nuxt-img class="w-20 mx-auto" src="../assets/img/social-media.png" />
+          <nuxt-img class="w-20 mx-auto" src="img/social-media.png" />
           <p class="mt-3 text-lg font-semibold text-center">Redes Sociales</p>
           <p
             class="grid mt-3 text-base text-center place-content-center place-items-center"
@@ -169,7 +169,7 @@
         class="max-w-xs mx-auto mt-6 overflow-hidden text-black bg-white shadow-xl rounded-2xl"
       >
         <div class="p-6">
-          <nuxt-img class="w-20 mx-auto" src="../assets/img/navegador.png" />
+          <nuxt-img class="w-20 mx-auto" src="img/navegador.png" />
           <p class="mt-3 text-lg font-semibold text-center">Sitios Web</p>
           <p
             class="grid mt-3 text-base text-center place-content-center place-items-center"
@@ -184,7 +184,7 @@
         class="max-w-xs mx-auto mt-6 overflow-hidden text-black bg-white shadow-xl rounded-2xl"
       >
         <div class="p-6">
-          <nuxt-img class="w-20 mx-auto" src="../assets/img/soporte-tecnico.png" />
+          <nuxt-img class="w-20 mx-auto" src="img/soporte-tecnico.png" />
           <p class="mt-3 text-lg font-semibold text-center">Optimización Web</p>
           <p
             class="grid mt-3 text-base text-center place-content-center place-items-center"
@@ -199,7 +199,7 @@
         class="max-w-xs mx-auto mt-6 overflow-hidden text-black bg-white shadow-xl rounded-2xl"
       >
         <div class="p-6">
-          <nuxt-img class="w-20 mx-auto" src="../assets/img/Soporte.png" />
+          <nuxt-img class="w-20 mx-auto" src="img/Soporte.png" />
           <p class="mt-3 text-lg font-semibold text-center">Soporte</p>
           <p
             class="grid mt-3 text-base text-center place-content-center place-items-center"
@@ -214,7 +214,7 @@
         class="max-w-xs mx-auto mt-6 overflow-hidden text-black bg-white shadow-xl rounded-2xl"
       >
         <div class="p-6">
-          <nuxt-img class="w-20 mx-auto" src="../assets/img/impresora.png" />
+          <nuxt-img class="w-20 mx-auto" src="img/impresora.png" />
           <p class="mt-3 text-lg font-semibold text-center">
             Facturación Electrónica
           </p>
@@ -232,7 +232,7 @@
         class="max-w-xs mx-auto mt-6 overflow-hidden text-black bg-white shadow-xl rounded-2xl"
       >
         <div class="p-6">
-          <nuxt-img class="w-20 mx-auto" src="/diseno.png" />
+          <nuxt-img class="w-20 mx-auto" src="img/diseno.png" />
           <p class="mt-3 text-lg font-semibold text-center">Diseño</p>
           <p
             class="grid mt-3 text-base text-center place-content-center place-items-center"
@@ -251,7 +251,7 @@
     <div class="overflow-hidden rounded-lg shadow-lg cursor-pointer">
       <nuxt-img
         class="object-cover w-full h-48"
-        src="/Img1.jpg"
+        src="img/Img1.jpg"
         alt="Flower and sky"
         loading="lazy"
       />
@@ -259,16 +259,7 @@
     <div class="overflow-hidden rounded-lg shadow-lg cursor-pointer">
       <nuxt-img
         class="object-cover w-full h-48"
-        src="/Img2.jpg"
-        alt="Flower and sky"
-        loading="lazy"
-      />
-    </div>
-
-    <div class="overflow-hidden rounded-lg shadow-lg cursor-pointer">
-      <nuxt-img
-        class="object-cover w-full h-48"
-        src="/Img3.jpg"
+        src="img/Img2.jpg"
         alt="Flower and sky"
         loading="lazy"
       />
@@ -277,7 +268,16 @@
     <div class="overflow-hidden rounded-lg shadow-lg cursor-pointer">
       <nuxt-img
         class="object-cover w-full h-48"
-        src="/Img4.jpg"
+        src="img/Img3.jpg"
+        alt="Flower and sky"
+        loading="lazy"
+      />
+    </div>
+
+    <div class="overflow-hidden rounded-lg shadow-lg cursor-pointer">
+      <nuxt-img
+        class="object-cover w-full h-48"
+        src="img/Img4.jpg"
         alt="Flower and sky"
         loading="lazy"
       />
@@ -290,6 +290,5 @@
 import VideoComponent from "../src/components/home/VideoComponent.vue";
 import Layout from "../src/components/Layout.vue";
 import footerComponent from "../src/components/home/footerComponent.vue";
-import NuxtLazyLoad from 'nuxt-lazy-load'
-import IMG4 from "/assets/img/Img4.jpg"
+
 </script>

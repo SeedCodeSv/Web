@@ -7,9 +7,9 @@
           <div class="text-white">
             <p class="font-semibold">Dirección</p>
             <div class="flex mt-2 w-full">
-              <img
+              <nuxt-img
                 class="w-6 h-6 max-h-6"
-                src="../../../assets/icons/ubicacion.png"
+                src="icons/ubicacion.png"
                 alt=""
                 srcset=""
               />
@@ -20,19 +20,18 @@
             <p class="font-semibold">Contacto</p>
             <div class="flex mt-2">
               <div>
-                <img
+                <nuxt-img
                 class="w-6 h-6 max-h-6"
-                src="../../../assets/icons/signo-de-arroba.png"
-                alt=""
+                src="icons/signo-de-arroba.png"
                 srcset=""
               />
               </div>
               <p class="ml-3">seedcodesv@gmail.com</p>
             </div>
             <div class="flex mt-2">
-              <img
+              <nuxt-img
               class="w-7 h-7 max-h-7"
-                src="../../../assets/icons/ring-phone.png"
+                src="icons/ring-phone.png"
                 alt=""
                 srcset=""
               />
@@ -42,9 +41,9 @@
           <div class="text-white">
             <p class="font-semibold">Redes sociales</p>
             <div class="flex mt-2">
-              <img
+              <nuxt-img
               class="w-6 h-6 max-h-6"
-                src="../../../assets/icons/linkedin.png"
+                src="icons/linkedin.png"
                 alt=""
                 srcset=""
               />
@@ -55,9 +54,9 @@
               >
             </div>
             <div class="flex mt-2">
-              <img
+              <nuxt-img
               class="w-6 h-6 max-h-6"
-                src="../../../assets/icons/facebook.png"
+                src="icons/facebook.png"
                 alt=""
                 srcset=""
               />
@@ -79,7 +78,7 @@
         </p>
 
         <div class="flex -mx-2 sm:mt-0">
-          <img class="w-12" src="../../../assets/img/LogoSeedCode.png" alt="" srcset="">
+          <nuxt-img class="w-12" src="img/LogoSeedCode.png" alt="" srcset=""/>
         </div>
       </div>
     </div>

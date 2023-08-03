@@ -67,7 +67,7 @@
             </div>
           </div>
           <div
-            class="m-5 bg-[url('../assets/css/img/contact.jpg')] hidden lg:flex bg-center bg-no-repeat bg-cover rounded-2xl"
+            class="m-5 bg-[url('/assets/img/contact.jpg')] hidden lg:flex bg-center bg-no-repeat bg-cover rounded-2xl"
           >
             <div class="w-full h-full bg-[rgba(0,0,0,0.5)] rounded-2xl"></div>
           </div>

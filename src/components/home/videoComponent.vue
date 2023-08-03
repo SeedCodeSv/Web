@@ -9,7 +9,7 @@
       class="w-full h-[350px] sm:h-[400px] md:h-[500px] lg:h-[600px] xl:h-[700px] object-cover bg-[rgba(0,0,0,0.8)] masked-video"
     >
       <source
-        src="https://v4.cdnpk.net/videvo_files/video/free/video0467/large_watermarked/_import_615a995eea3f30.45528318_FPpreview.mp4"
+      data-src ="/assets/videos/VideoInicial.mp4"
         type="video/mp4"
       />
     </video>
@@ -18,8 +18,8 @@
       class="absolute inset-0 flex justify-center items-center text-center text-white font-black text-5xl"
     >
       <div class="px-4 sm:px-8 lg:px-16 xl:px-32 opacity-60 text-center">
-        <img
-          src="../../../assets/img/HojasDeLogo.png"
+        <nuxt-img
+          src="img/HojasDeLogo.png"
           class="align-center max-w-sm mx-auto"
           alt=""
         />

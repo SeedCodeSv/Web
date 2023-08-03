@@ -7,7 +7,7 @@
         <div class="flex justify-center md:justify-end -mt-16">
           <img
             class="w-auto h-20 object-cover rounded-full border-2 border-indigo-500"
-            src="../assets/clients/logo.png"
+            src="/clients/logo.png"
           />
         </div>
         <div>
@@ -28,7 +28,7 @@
         <div class="flex justify-center md:justify-end -mt-16">
           <img
             class="w-20 h-20 object-cover rounded-full border-2 border-indigo-500"
-            src="../assets/clients/Clinica.png"
+            src="/clients/Clinica.png"
           />
         </div>
         <div>
@@ -48,7 +48,7 @@
         <div class="flex justify-center md:justify-end -mt-16">
           <img
             class="w-20 h-20 object-cover rounded-full border-2 border-indigo-500"
-            src="../assets/clients/Funeraria.svg"
+            src="/clients/Funeraria.svg"
           />
         </div>
         <div>

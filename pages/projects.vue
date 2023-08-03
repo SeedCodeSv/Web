@@ -42,9 +42,9 @@
           </ul>
         </div>
         <div class="w-[100%] lg:w-[65%] p-8">
-          <img
+          <nuxt-img
             class="rounded-2xl shadow"
-            src="../assets/projects/clinica.png"
+            src="/projects/clinica.png"
             alt=""
           />
         </div>
@@ -54,9 +54,9 @@
     <div class="w-screen flex justify-end p-10 animate__animated animate__fadeInRight">
       <div class="w-[95vw] lg:w-[80vw] xl:w-[70vw]  flex flex-col lg:flex-row border shadow rounded-2xl">
         <div class="w-[65%] hidden lg:flex p-8">
-          <img
+          <nuxt-img
             class="rounded-2xl shadow"
-            src="../assets/projects/web.png"
+            src="/projects/web.png"
             alt=""
           />
         </div>
@@ -88,9 +88,9 @@
           </ul>
         </div>
         <div class="w-[100%] lg:w-[35%] flex lg:hidden p-8">
-          <img
+          <nuxt-img
             class="rounded-2xl shadow"
-            src="../assets/projects/web.png"
+            src="/projects/web.png"
             alt=""
           />
         </div>
@@ -135,7 +135,7 @@
           </ul>
         </div>
         <div class="w-[100%] lg:w-[65%] p-8">
-          <img
+          <nuxt-img
             class="rounded-2xl shadow"
             src="../assets/projects/afraco.png"
             alt=""
@@ -148,9 +148,9 @@
     <div class="w-screen flex justify-end p-10 animate__animated animate__fadeInRight">
       <div class="w-[95vw] lg:w-[80vw] xl:w-[70vw]  flex flex-col lg:flex-row border shadow rounded-2xl">
         <div class="w-[65%] hidden lg:flex p-8">
-          <img
+          <nuxt-img
             class="rounded-2xl shadow"
-            src="../assets/projects/PuntoDeVentas.png"
+            src="/projects/PuntoDeVentas.png"
             alt=""
           />
         </div>
@@ -182,9 +182,9 @@
           </ul>
         </div>
         <div class="w-[100%] lg:w-[35%] flex lg:hidden p-8">
-          <img
+          <nuxt-img
             class="rounded-2xl shadow"
-            src="../assets/projects/PuntoDeVentas.png"
+            src="/projects/PuntoDeVentas.png"
             alt=""
           />
         </div>

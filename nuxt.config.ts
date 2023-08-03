@@ -19,6 +19,6 @@ export default defineNuxtConfig({
     defaultImage: true,
   },
   image: {
-    dir:"assets/img"
+    dir:"assets",   
   },
 });
