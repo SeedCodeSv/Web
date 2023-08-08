@@ -9,7 +9,7 @@
   </head>
   
 
-  <VideoComponent></VideoComponent>
+  <videoComponent></videoComponent>
 
   <div
     class="grid grid-cols-1 gap-2 p-5 md:grid-cols-2 lg:grid-cols-3 md:p-10 mt-15"
