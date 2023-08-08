@@ -9,7 +9,7 @@
   </head>
   
 
-  <videoComponent></videoComponent>
+  <videoComponent />
 
   <div
     class="grid grid-cols-1 gap-2 p-5 md:grid-cols-2 lg:grid-cols-3 md:p-10 mt-15"
@@ -333,14 +333,6 @@
     </div>
   </div>
 
-
-  <!-- <Carousel :itemsToShow="3.95" :wrapAround="true" :transition="500">
-    <Slide v-for="slide in 10" :key="slide">
-      <div class="carousel__item">{{ slide }}</div>
-    </Slide>
-
-    ...
-  </Carousel> -->
 
    <!-- <div class="mt-4">
         <Carousel
