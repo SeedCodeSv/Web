@@ -7,9 +7,8 @@
   <head>
     <title>SeedCode</title>
   </head>
-  
 
-  <videoComponent />
+  <videoComponent></videoComponent>
 
   <div
     class="grid grid-cols-1 gap-2 p-5 md:grid-cols-2 lg:grid-cols-3 md:p-10 mt-15"
@@ -333,8 +332,7 @@
     </div>
   </div>
 
-
-   <!-- <div class="mt-4">
+  <!-- <div class="mt-4">
         <Carousel
           :itemsToShow="1"
           :wrapAround="true"
@@ -355,7 +353,6 @@
         </Carousel>
       </div> -->
 
-
   <footerComponent></footerComponent>
 </template>
 
@@ -363,14 +360,11 @@
 import videoComponent from "../src/components/home/videoComponent.vue";
 import Layout from "../src/components/Layout.vue";
 import footerComponent from "../src/components/home/footerComponent.vue";
-import { Carousel, Pagination, Slide } from 'vue3-carousel'
-import 'vue3-carousel/dist/carousel.css'
-
-
+import { Carousel, Pagination, Slide } from "vue3-carousel";
+import "vue3-carousel/dist/carousel.css";
 </script>
 
 <style>
-
 .carousel__item {
   min-height: 200px;
   border-radius: 30px;
