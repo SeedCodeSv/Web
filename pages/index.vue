@@ -8,7 +8,6 @@
     <title>SeedCode</title>
   </head>
   
-  <nuxt-link rel="stylesheet" href="SeedCode/img/fjgq2fhsgyjczcvw30po"/>
 
   <VideoComponent></VideoComponent>
 
