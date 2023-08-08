@@ -369,7 +369,7 @@
 </template>
 
 <script lang="ts" setup>
-import VideoComponent from "../src/components/home/VideoComponent.vue";
+import videoComponent from "../src/components/home/videoComponent.vue";
 import Layout from "../src/components/Layout.vue";
 import footerComponent from "../src/components/home/footerComponent.vue";
 import { Carousel, Pagination, Slide } from 'vue3-carousel'
