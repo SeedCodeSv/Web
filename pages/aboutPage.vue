@@ -8,7 +8,8 @@
           <div class="w-full h-70 sm:h-auto">
             <nuxt-img
               class="rounded-xl h-full w-full object-cover"
-              src="img/mision.jpg"
+              src="SeedCode/img/ekgg0hcvwzkneabdo2dp"
+              provider="cloudinary" loading="lazy"
             />
           </div>
           <div
@@ -46,8 +47,9 @@
           <div class="w-full h-70 sm:h-auto">
             <nuxt-img
               class="rounded-xl h-full w-full object-cover"
-              src="img/vision-img.jpg"
-              alt="Descripción de la imagen"
+              src="SeedCode/img/e7pcaptvzbjlaej4tybn"
+              alt="SeedCode"
+              provider="cloudinary" loading="lazy"
             />
           </div>
         </div>

@@ -9,8 +9,9 @@
             <div class="flex mt-2 w-full">
               <nuxt-img
                 class="w-6 h-6 max-h-6"
-                src="icons/ubicacion.png"
+                src="SeedCode/icons/k5wxnjuezdj3r0mkkwav"
                 alt=""
+                provider="cloudinary" loading="lazy"
                 srcset=""
               />
               <p class=" whitespace-pre-line ml-3">Av. Santa Lucia, Sonzacate, Sonsonate, El Salvador</p>
@@ -22,8 +23,9 @@
               <div>
                 <nuxt-img
                 class="w-6 h-6 max-h-6"
-                src="icons/signo-de-arroba.png"
+                src="SeedCode/icons/ev2epplxgv0bnz9zdko2"
                 srcset=""
+                provider="cloudinary" loading="lazy"
               />
               </div>
               <p class="ml-3">seedcodesv@gmail.com</p>
@@ -31,9 +33,10 @@
             <div class="flex mt-2">
               <nuxt-img
               class="w-7 h-7 max-h-7"
-                src="icons/ring-phone.png"
+                src="SeedCode/icons/whl2qqt4dvncjbfrtbb5"
                 alt=""
                 srcset=""
+                provider="cloudinary" loading="lazy"
               />
               <p class="ml-3">(503) 7392-1094</p>
             </div>
@@ -43,9 +46,10 @@
             <div class="flex mt-2">
               <nuxt-img
               class="w-6 h-6 max-h-6"
-                src="icons/linkedin.png"
+                src="SeedCode/icons/lwltesvvxmfbiq0zy8ro"
                 alt=""
                 srcset=""
+                provider="cloudinary" loading="lazy"
               />
               <a
                 class="ml-3"
@@ -56,8 +60,9 @@
             <div class="flex mt-2">
               <nuxt-img
               class="w-6 h-6 max-h-6"
-                src="icons/facebook.png"
-                alt=""
+                src="SeedCode/icons/dyibkysgup25uzniargw"
+                provider="cloudinary" loading="lazy"
+                alt="SeedCode"
                 srcset=""
               />
               <a
@@ -78,7 +83,7 @@
         </p>
 
         <div class="flex -mx-2 sm:mt-0">
-          <nuxt-img class="w-12" src="img/LogoSeedCode.png" alt="" srcset=""/>
+          <nuxt-img class="w-12" src="SeedCode/img/hju1ez7gx0m6jftb58xn" provider="cloudinary" loading="lazy" alt="" srcset=""/>
         </div>
       </div>
     </div>

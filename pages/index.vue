@@ -1,9 +1,14 @@
 <template>
   <Layout />
-
+  <meta
+    name="keywords"
+    content="seedcode, seedcodesv, SEEDCODE, SEEDCODESV, SeedCode, SeedCodeSV, seed, code, seedCode, seedCodeSV"
+  />
   <head>
     <title>SeedCode</title>
   </head>
+  
+  <nuxt-link rel="stylesheet" href="SeedCode/img/fjgq2fhsgyjczcvw30po"/>
 
   <VideoComponent></VideoComponent>
 
@@ -92,7 +97,8 @@
         <div class="w-full h-70 sm:h-auto">
           <nuxt-img
             class="object-cover w-full h-full rounded-xl"
-            src ="img/img-card.jpg"
+            provider="cloudinary"
+            src="SeedCode/img/zmomger5myanynrtylt7"
             loading="lazy"
           />
         </div>
@@ -124,7 +130,12 @@
         class="max-w-xs mx-auto mt-6 overflow-hidden text-black bg-white shadow-xl rounded-2xl"
       >
         <div class="p-6">
-          <nuxt-img class="w-20 mx-auto" src="img/e-commerce.png" />
+          <nuxt-img
+            class="w-20 mx-auto"
+            src="SeedCode/img/nvhjhybcdgixwcsun5my"
+            provider="cloudinary"
+            loading="lazy"
+          />
           <p class="mt-3 text-lg font-semibold text-center">E-commerce</p>
           <p
             class="grid mt-3 text-base text-center place-content-center place-items-center"
@@ -139,7 +150,12 @@
         class="max-w-xs mx-auto mt-6 overflow-hidden text-black bg-white shadow-xl rounded-2xl"
       >
         <div class="p-6">
-          <nuxt-img class="w-20 mx-auto" src="img/laptop.png" />
+          <nuxt-img
+            class="w-20 mx-auto"
+            src="SeedCode/img/b9seedgocrkrj0lwitgy"
+            provider="cloudinary"
+            loading="lazy"
+          />
           <p class="mt-3 text-lg font-semibold text-center">Software</p>
           <p
             class="grid mt-3 text-base text-center place-content-center place-items-center"
@@ -154,7 +170,12 @@
         class="max-w-xs mx-auto mt-6 overflow-hidden text-black bg-white shadow-xl rounded-2xl"
       >
         <div class="p-6">
-          <nuxt-img class="w-20 mx-auto" src="img/social-media.png" />
+          <nuxt-img
+            class="w-20 mx-auto"
+            src="SeedCode/img/mrcwsfymjbun3u6n8uqs"
+            provider="cloudinary"
+            loading="lazy"
+          />
           <p class="mt-3 text-lg font-semibold text-center">Redes Sociales</p>
           <p
             class="grid mt-3 text-base text-center place-content-center place-items-center"
@@ -169,7 +190,12 @@
         class="max-w-xs mx-auto mt-6 overflow-hidden text-black bg-white shadow-xl rounded-2xl"
       >
         <div class="p-6">
-          <nuxt-img class="w-20 mx-auto" src="img/navegador.png" />
+          <nuxt-img
+            class="w-20 mx-auto"
+            src="SeedCode/img/olcgnpo6bqgb9q2dn599"
+            provider="cloudinary"
+            loading="lazy"
+          />
           <p class="mt-3 text-lg font-semibold text-center">Sitios Web</p>
           <p
             class="grid mt-3 text-base text-center place-content-center place-items-center"
@@ -184,7 +210,12 @@
         class="max-w-xs mx-auto mt-6 overflow-hidden text-black bg-white shadow-xl rounded-2xl"
       >
         <div class="p-6">
-          <nuxt-img class="w-20 mx-auto" src="img/soporte-tecnico.png" />
+          <nuxt-img
+            class="w-20 mx-auto"
+            src="SeedCode/img/o5jli8wvwc1hknrxm7g5"
+            provider="cloudinary"
+            loading="lazy"
+          />
           <p class="mt-3 text-lg font-semibold text-center">Optimización Web</p>
           <p
             class="grid mt-3 text-base text-center place-content-center place-items-center"
@@ -199,7 +230,12 @@
         class="max-w-xs mx-auto mt-6 overflow-hidden text-black bg-white shadow-xl rounded-2xl"
       >
         <div class="p-6">
-          <nuxt-img class="w-20 mx-auto" src="img/Soporte.png" />
+          <nuxt-img
+            class="w-20 mx-auto"
+            src="SeedCode/img/zwzwfgnbddmwl8cpaswj"
+            provider="cloudinary"
+            loading="lazy"
+          />
           <p class="mt-3 text-lg font-semibold text-center">Soporte</p>
           <p
             class="grid mt-3 text-base text-center place-content-center place-items-center"
@@ -214,7 +250,12 @@
         class="max-w-xs mx-auto mt-6 overflow-hidden text-black bg-white shadow-xl rounded-2xl"
       >
         <div class="p-6">
-          <nuxt-img class="w-20 mx-auto" src="img/impresora.png" />
+          <nuxt-img
+            class="w-20 mx-auto"
+            src="SeedCode/img/jtrsxsxkosalebfixjym"
+            provider="cloudinary"
+            loading="lazy"
+          />
           <p class="mt-3 text-lg font-semibold text-center">
             Facturación Electrónica
           </p>
@@ -232,7 +273,12 @@
         class="max-w-xs mx-auto mt-6 overflow-hidden text-black bg-white shadow-xl rounded-2xl"
       >
         <div class="p-6">
-          <nuxt-img class="w-20 mx-auto" src="img/diseno.png" />
+          <nuxt-img
+            class="w-20 mx-auto"
+            src="SeedCode/img/hj3phza9irky76o1sq7r"
+            provider="cloudinary"
+            loading="lazy"
+          />
           <p class="mt-3 text-lg font-semibold text-center">Diseño</p>
           <p
             class="grid mt-3 text-base text-center place-content-center place-items-center"
@@ -251,25 +297,18 @@
     <div class="overflow-hidden rounded-lg shadow-lg cursor-pointer">
       <nuxt-img
         class="object-cover w-full h-48"
-        src="img/Img1.jpg"
+        src="SeedCode/img/bgrq5dlikmmgiamt37tc"
         alt="Flower and sky"
+        provider="cloudinary"
         loading="lazy"
       />
     </div>
     <div class="overflow-hidden rounded-lg shadow-lg cursor-pointer">
       <nuxt-img
         class="object-cover w-full h-48"
-        src="img/Img2.jpg"
+        src="SeedCode/img/bl9vlkswosadqdtlubtq"
         alt="Flower and sky"
-        loading="lazy"
-      />
-    </div>
-
-    <div class="overflow-hidden rounded-lg shadow-lg cursor-pointer">
-      <nuxt-img
-        class="object-cover w-full h-48"
-        src="img/Img3.jpg"
-        alt="Flower and sky"
+        provider="cloudinary"
         loading="lazy"
       />
     </div>
@@ -277,12 +316,55 @@
     <div class="overflow-hidden rounded-lg shadow-lg cursor-pointer">
       <nuxt-img
         class="object-cover w-full h-48"
-        src="img/Img4.jpg"
+        src="SeedCode/img/woew83vkxvweykvlntbv"
         alt="Flower and sky"
+        provider="cloudinary"
+        loading="lazy"
+      />
+    </div>
+
+    <div class="overflow-hidden rounded-lg shadow-lg cursor-pointer">
+      <nuxt-img
+        class="object-cover w-full h-48"
+        src="SeedCode/img/qhi0a7pt18c8yezyx6jd"
+        alt="Flower and sky"
+        provider="cloudinary"
         loading="lazy"
       />
     </div>
   </div>
+
+
+  <!-- <Carousel :itemsToShow="3.95" :wrapAround="true" :transition="500">
+    <Slide v-for="slide in 10" :key="slide">
+      <div class="carousel__item">{{ slide }}</div>
+    </Slide>
+
+    ...
+  </Carousel> -->
+
+   <!-- <div class="mt-4">
+        <Carousel
+          :itemsToShow="1"
+          :wrapAround="true"
+          :transition="500"
+          :autoplay="4000"
+          
+        >
+          <Slide v-for="i in 10" :index="i">
+            <div class="carousel__item h-20 w-20">
+              <nuxt-img src="SeedCode/img/qhi0a7pt18c8yezyx6jd"  alt="" loading="lazy" provider="cloudinary"/>/>
+            </div>
+          </Slide>
+
+          <template #addons>
+            <Navigation />
+            <Pagination />
+          </template>
+        </Carousel>
+      </div> -->
+
+
   <footerComponent></footerComponent>
 </template>
 
@@ -290,5 +372,39 @@
 import VideoComponent from "../src/components/home/VideoComponent.vue";
 import Layout from "../src/components/Layout.vue";
 import footerComponent from "../src/components/home/footerComponent.vue";
+import { Carousel, Pagination, Slide } from 'vue3-carousel'
+import 'vue3-carousel/dist/carousel.css'
+
 
 </script>
+
+<style>
+
+.carousel__item {
+  min-height: 200px;
+  border-radius: 30px;
+  max-height: 600px;
+  width: 100%;
+  background-color: var(--vc-clr-primary);
+  color: var(--vc-clr-white);
+  font-size: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel__item img {
+  border-radius: 10px;
+}
+
+.carousel__slide {
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.carousel__prev,
+.carousel__next {
+  box-sizing: content-box;
+  border: 5px solid white;
+}
+</style>

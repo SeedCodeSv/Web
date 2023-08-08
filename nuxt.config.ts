@@ -19,6 +19,10 @@ export default defineNuxtConfig({
     defaultImage: true,
   },
   image: {
-    dir:"assets",   
+    dir: './assets',
+    cloudinary: {
+      baseURL: "https://res.cloudinary.com/dkdrkfuff/image/upload/"
+    }
   },
+  
 });

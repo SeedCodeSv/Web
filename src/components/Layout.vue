@@ -8,8 +8,9 @@
         <div>
           <nuxt-img
             class="h-8"
-            src="img/TextSeedCodeWhite.png"
-            alt="Workcation"
+            src="SeedCode/img/qipspz2e5apyeusgpk32"
+            alt="SeedCode"
+            provider="cloudinary" loading="lazy"
           />
         </div>
         <div class="sm:hidden">
