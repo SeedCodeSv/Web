@@ -289,7 +289,7 @@
     </div>
   </div>
 
-  <div
+  <!-- <div
     class="grid w-full grid-cols-1 gap-6 mt-20 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
   >
     <div class="overflow-hidden rounded-lg shadow-lg cursor-pointer">
@@ -330,19 +330,22 @@
         loading="lazy"
       />
     </div>
-  </div>
+  </div> -->
 
-  <!-- <div class="mt-4">
+
+
+
+ 
         <Carousel
-          :itemsToShow="1"
+          :itemsToShow="3.00"
           :wrapAround="true"
           :transition="500"
           :autoplay="4000"
-          
         >
-          <Slide v-for="i in 10" :index="i">
-            <div class="carousel__item h-20 w-20">
-              <nuxt-img src="SeedCode/img/qhi0a7pt18c8yezyx6jd"  alt="" loading="lazy" provider="cloudinary"/>/>
+          <Slide v-for="(slide, index) in images" :key="index">
+            <div class="carousel__item">
+              <nuxt-img :src="slide.image" provider="cloudinary"
+        loading="lazy"/>
             </div>
           </Slide>
 
@@ -351,7 +354,7 @@
             <Pagination />
           </template>
         </Carousel>
-      </div> -->
+    
 
   <footerComponent></footerComponent>
 </template>
@@ -361,35 +364,65 @@ import videoComponent from "../src/components/home/videoComponent.vue";
 import Layout from "../src/components/Layout.vue";
 import footerComponent from "../src/components/home/footerComponent.vue";
 import { Carousel, Pagination, Slide } from "vue3-carousel";
+import { ref } from "vue";
+import { images_captions } from "../src/components/home/carouselComponent";
 import "vue3-carousel/dist/carousel.css";
+const images = ref(images_captions);
+
 </script>
 
-<style>
-.carousel__item {
-  min-height: 200px;
-  border-radius: 30px;
-  max-height: 600px;
-  width: 100%;
-  background-color: var(--vc-clr-primary);
-  color: var(--vc-clr-white);
-  font-size: 20px;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+<style scoped>
+.carousel__slide {
+  padding: 5px;
 }
-.carousel__item img {
-  border-radius: 10px;
+
+.carousel__viewport {
+  perspective: 2000px;
+}
+
+.carousel__track {
+  transform-style: preserve-3d;
+}
+
+.carousel__slide--sliding {
+  transition: 0.5s;
 }
 
 .carousel__slide {
-  padding: 10px;
-  border-radius: 20px;
+  opacity: 1;
+  transform: rotateY(-10deg) scale(0.95);
 }
 
-.carousel__prev,
-.carousel__next {
-  box-sizing: content-box;
-  border: 5px solid white;
+.carousel__slide--active ~ .carousel__slide {
+  transform: rotateY(10deg) scale(0.95);
 }
+
+.carousel__slide--prev {
+  opacity: 0.9;
+  transform: rotateY(-10deg) scale(0.95);
+}
+
+.carousel__slide--next {
+  opacity: 0.9;
+  transform: rotateY(10deg) scale(0.95);
+}
+
+.carousel__slide--active {
+  opacity: 1;
+  transform: rotateY(0) scale(1.1);
+}
+
+.carousel__item {
+  min-height: 200px;
+  width: 100%;
+  max-width: 20;
+  font-size: 30px;
+ border-radius: 30px;
+
+  justify-content: center;
+  align-items: center;
+
+}
+
+
 </style>
