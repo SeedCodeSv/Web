@@ -15,5 +15,6 @@ export default defineNuxtConfig({
       baseURL: "https://res.cloudinary.com/dkdrkfuff/image/upload/"
     }
   },
+
   
 });

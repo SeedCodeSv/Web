@@ -15,7 +15,7 @@
           <div
             class="mt-4 lg:mt-0 px-5 w-full h-full grid place-content-center place-items-center"
           >
-            <p class="text-base sm:text-lg font-semibold">Misión</p>
+            <h1 class="text-base sm:text-lg font-semibold">Misión</h1>
             <p class="text-base sm:text-lg">
               Diseñar y desarrollar software de calidad, enfocado en las
               necesidades del cliente. Superamos expectativas con soluciones
@@ -35,7 +35,7 @@
             class="mt-4 lg:mt-0 px-5 w-full h-full grid place-content-center place-items-center"
           >
             <div class="p-4">
-              <p class="text-base sm:text-lg font-semibold">Visión</p>
+              <h1 class="text-base sm:text-lg font-semibold">Visión</h1>
               <p class="text-base sm:text-lg">
                 Ser reconocidos como líderes en el desarrollo de software,
                 brindando soluciones tecnológicas innovadoras que impulsen el
@@ -55,8 +55,6 @@
         </div>
       </div>
     </div>
-
-
 
     <footerComponent></footerComponent>
   </Layout>

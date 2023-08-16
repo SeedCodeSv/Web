@@ -11,6 +11,7 @@
             src="SeedCode/img/qipspz2e5apyeusgpk32"
             alt="SeedCode"
             provider="cloudinary" loading="lazy"
+            title="Logo-SeedCode"
           />
         </div>
         <div class="sm:hidden">
@@ -43,7 +44,7 @@
           class="md:p-5 cursor-pointer transition duration-500 px-2 py-1 text-lg text-white flex items-center"
         >
 
-          <nuxt-link to="/" class="flex items-center">
+          <nuxt-link to="/" title="Inicio" class="flex items-center">
             <!-- Agregamos flex y items-center para alinear el texto con la imagen horizontalmente -->
             Inicio
           </nuxt-link>
@@ -53,19 +54,19 @@
           class="md:p-5 cursor-pointer transition duration-500 px-2 py-1 text-lg text-white flex items-center"
         >
 
-          <nuxt-link to="/contact">Contacto</nuxt-link>
+          <nuxt-link to="/contact" title="Contacto">Contacto</nuxt-link>
         </li>
         <li
           class="md:p-5 cursor-pointer transition duration-500 px-2 py-1 text-lg text-white flex items-center"
         >
 
-          <nuxt-link to="/projects">Proyectos</nuxt-link>
+          <nuxt-link to="/projects" title="Proyectos">Proyectos</nuxt-link>
         </li>
         <li
           class="md:p-5 cursor-pointer transition duration-500 px-2 py-1 text-lg text-white flex items-center"
         >
 
-          <nuxt-link to="/aboutPage">Acerca de</nuxt-link>
+          <nuxt-link to="/aboutPage" title="Acerca de">Acerca de</nuxt-link>
         </li>
       </nav>
     </header>
@@ -95,6 +96,32 @@ const navbarColor = computed(() => {
 });
 
 const isOpen = ref(false);
+
+
+  useSeoMeta({
+  title: 'Seed Code SV | Software Company',
+  charset: 'utf-8',
+  ogTitle: 'Seed Code SV',
+  description: 'SeedCode, una empresa líder en servicios tecnológicos, proporciona soluciones innovadoras y personalizadas para impulsar el crecimiento de negocios. Con un equipo altamente capacitado, nos enfocamos en brindar resultados excepcionales y satisfacer las necesidades de nuestros clientes.',
+  ogDescription: 'Nutriendo ideas y cultivando innovación.',
+  ogImage: 'https://media.licdn.com/dms/image/D4E0BAQGNZLnKxP8Fdw/company-logo_200_200/0/1687997940196?e=2147483647&v=beta&t=2Vvu1lrmjplU5RTDjfSIXrwicX5DlALQlCLigQziTU8',
+  ogUrl: 'https://seedcodesv.com/'
+})
+
+
+useHead({
+  meta: [
+    { name: 'keywords', content: 'seedcode, seedcodesv, seed code sv, seedcode sv, SEEDCODE, SEEDCODESV, SeedCode, SeedCodeSV, SeedCode SV, seed, code, seedCode, seedCodeSV' },
+    { name: 'robots', content: 'INDEX, FOLLOW' },
+    { name: 'language', content: 'es-SV' },
+    { name: 'author', content: 'Manuel Marquez' },
+    { name: 'publisher', content: 'Seed Code SV'}
+  ],
+  link:[
+    { rel:'canonical', href:'https://seedcodesv.com/'},
+    { rel:'', href:' '}
+  ]
+})
 </script>
 
 <style lang="css" scoped>

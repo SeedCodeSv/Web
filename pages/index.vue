@@ -1,28 +1,21 @@
 <template>
   <Layout />
-  <meta
-    name="keywords"
-    content="seedcode, seedcodesv, SEEDCODE, SEEDCODESV, SeedCode, SeedCodeSV, seed, code, seedCode, seedCodeSV"
-  />
-  <head>
-    <title>SeedCode</title>
-  </head>
 
   <videoComponent></videoComponent>
-
   <div
     class="grid grid-cols-1 gap-2 p-5 md:grid-cols-2 lg:grid-cols-3 md:p-10 mt-15"
   >
     <div class="max-w-sm p-6 mx-auto bg-white rounded-lg shadow-xl">
       <div class="flex flex-col items-center p-3">
-        <p
+        <h1
           class="items-center p-3 text-5xl font-black text-center opacity-75 md:text-7xl md:p-5 drop-shadow-xl"
         >
           6+
-        </p>
-        <p class="text-lg font-semibold text-center md:text-xl">
+        </h1>
+
+        <h2 class="text-lg font-semibold text-center md:text-xl">
           Proyectos Completados
-        </p>
+        </h2>
         <p class="text-base text-center md:text-base">
           Nos hemos especializado en la creación de soluciones digitales de
           excelencia y vanguardia
@@ -40,12 +33,12 @@
     </div>
     <div class="max-w-sm p-6 mx-auto bg-white rounded-lg shadow-xl">
       <div class="flex flex-col items-center p-3">
-        <p
+        <h1
           class="items-center p-3 text-5xl font-black text-center opacity-75 md:text-7xl md:p-5 drop-shadow-xl"
         >
           5+
-        </p>
-        <p class="text-lg font-semibold text-center md:text-xl">Clientes</p>
+        </h1>
+        <h2 class="text-lg font-semibold text-center md:text-xl">Clientes</h2>
         <p class="text-base text-center md:text-base">
           Nuestra sólida cartera de proyectos exitosos refleja la confianza de
           nuestros clientes y nuestro enfoque profesional en la satisfacción del
@@ -54,6 +47,7 @@
         <div class="mt-3">
           <nuxt-link
             to="/clients"
+            title="Clientes"
             type="button"
             class="text-green-700 hover:text-white border border-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-green-500 dark:text-green-500 dark:hover:text-white dark:hover:bg-green-600 dark:focus:ring-green-800"
           >
@@ -64,14 +58,14 @@
     </div>
     <div class="max-w-sm p-6 mx-auto bg-white rounded-lg shadow-xl">
       <div class="flex flex-col items-center p-3">
-        <p
+        <h1
           class="items-center p-3 text-5xl font-black text-center opacity-75 md:text-7xl md:p-5 drop-shadow-xl"
         >
           4+
-        </p>
-        <p class="text-lg font-semibold text-center md:text-xl">
+        </h1>
+        <h2 class="text-lg font-semibold text-center md:text-xl">
           Años de Experiencia
-        </p>
+        </h2>
         <p class="text-base text-center md:text-base">
           Nuestra dedicación y experiencia nos han llevado a ser líderes
           expertos
@@ -98,6 +92,8 @@
             provider="cloudinary"
             src="SeedCode/img/zmomger5myanynrtylt7"
             loading="lazy"
+            alt="Team SeedCode"
+            title="Team SeedCode"
           />
         </div>
         <div
@@ -117,9 +113,9 @@
 
   <div class="mt-20">
     <div class="">
-      <h5 class="text-4xl font-black text-center text-black opacity-75">
+      <h1 class="text-4xl font-black text-center text-black opacity-75">
         Servicios
-      </h5>
+      </h1>
     </div>
     <div
       class="grid grid-cols-1 p-10 mt-4 md:grid-cols-2 lg:grid-cols-4 gap-x-11 gap-y-11"
@@ -133,8 +129,10 @@
             src="SeedCode/img/nvhjhybcdgixwcsun5my"
             provider="cloudinary"
             loading="lazy"
+            alt="E-commerce"
+            title="SeedCode - E-commerce"
           />
-          <p class="mt-3 text-lg font-semibold text-center">E-commerce</p>
+          <h2 class="mt-3 text-lg font-semibold text-center">E-commerce</h2>
           <p
             class="grid mt-3 text-base text-center place-content-center place-items-center"
           >
@@ -153,8 +151,10 @@
             src="SeedCode/img/b9seedgocrkrj0lwitgy"
             provider="cloudinary"
             loading="lazy"
+            alt="Software"
+            title="SeedCode - Software"
           />
-          <p class="mt-3 text-lg font-semibold text-center">Software</p>
+          <h2 class="mt-3 text-lg font-semibold text-center">Software</h2>
           <p
             class="grid mt-3 text-base text-center place-content-center place-items-center"
           >
@@ -173,8 +173,10 @@
             src="SeedCode/img/mrcwsfymjbun3u6n8uqs"
             provider="cloudinary"
             loading="lazy"
+            alt="Social Media"
+            title="SeedCode - Social Media"
           />
-          <p class="mt-3 text-lg font-semibold text-center">Redes Sociales</p>
+          <h2 class="mt-3 text-lg font-semibold text-center">Redes Sociales</h2>
           <p
             class="grid mt-3 text-base text-center place-content-center place-items-center"
           >
@@ -193,8 +195,10 @@
             src="SeedCode/img/olcgnpo6bqgb9q2dn599"
             provider="cloudinary"
             loading="lazy"
+            alt="Web Site"
+            title="SeedCode - Web Site"
           />
-          <p class="mt-3 text-lg font-semibold text-center">Sitios Web</p>
+          <h2 class="mt-3 text-lg font-semibold text-center">Sitios Web</h2>
           <p
             class="grid mt-3 text-base text-center place-content-center place-items-center"
           >
@@ -213,8 +217,12 @@
             src="SeedCode/img/o5jli8wvwc1hknrxm7g5"
             provider="cloudinary"
             loading="lazy"
+            alt="Website Optimization"
+            title="SeedCode - Website Optimization"
           />
-          <p class="mt-3 text-lg font-semibold text-center">Optimización Web</p>
+          <h2 class="mt-3 text-lg font-semibold text-center">
+            Optimización Web
+          </h2>
           <p
             class="grid mt-3 text-base text-center place-content-center place-items-center"
           >
@@ -233,8 +241,10 @@
             src="SeedCode/img/zwzwfgnbddmwl8cpaswj"
             provider="cloudinary"
             loading="lazy"
+            alt="Medium"
+            title="SeedCode - Medium"
           />
-          <p class="mt-3 text-lg font-semibold text-center">Soporte</p>
+          <h2 class="mt-3 text-lg font-semibold text-center">Soporte</h2>
           <p
             class="grid mt-3 text-base text-center place-content-center place-items-center"
           >
@@ -253,10 +263,12 @@
             src="SeedCode/img/jtrsxsxkosalebfixjym"
             provider="cloudinary"
             loading="lazy"
+            alt="Electronic billing"
+            title="SeedCode - Electronic billing"
           />
-          <p class="mt-3 text-lg font-semibold text-center">
+          <h2 class="mt-3 text-lg font-semibold text-center">
             Facturación Electrónica
-          </p>
+          </h2>
           <p
             class="grid mt-3 text-base text-center place-content-center place-items-center"
           >
@@ -276,85 +288,38 @@
             src="SeedCode/img/hj3phza9irky76o1sq7r"
             provider="cloudinary"
             loading="lazy"
+            alt="Design"
+            title="SeedCode - Design"
           />
-          <p class="mt-3 text-lg font-semibold text-center">Diseño</p>
+          <h2 class="mt-3 text-lg font-semibold text-center">Diseño</h2>
           <p
             class="grid mt-3 text-base text-center place-content-center place-items-center"
           >
             Ofrecemos servicios de diseño creativo y profesional para satisfacer
-            tus necesidades visuales y destacar tu marca..
+            tus necesidades visuales y destacar tu marca.
           </p>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- <div
-    class="grid w-full grid-cols-1 gap-6 mt-20 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
+  <Carousel
+    :itemsToShow="3.0"
+    :wrapAround="true"
+    :transition="500"
+    :autoplay="4000"
   >
-    <div class="overflow-hidden rounded-lg shadow-lg cursor-pointer">
-      <nuxt-img
-        class="object-cover w-full h-48"
-        src="SeedCode/img/bgrq5dlikmmgiamt37tc"
-        alt="Flower and sky"
-        provider="cloudinary"
-        loading="lazy"
-      />
-    </div>
-    <div class="overflow-hidden rounded-lg shadow-lg cursor-pointer">
-      <nuxt-img
-        class="object-cover w-full h-48"
-        src="SeedCode/img/bl9vlkswosadqdtlubtq"
-        alt="Flower and sky"
-        provider="cloudinary"
-        loading="lazy"
-      />
-    </div>
+    <Slide v-for="(slide, index) in images" :key="index">
+      <div class="carousel__item">
+        <nuxt-img :src="slide.image" provider="cloudinary" loading="lazy" alt="Team-SeedCode" title="Team-SeedCode" />
+      </div>
+    </Slide>
 
-    <div class="overflow-hidden rounded-lg shadow-lg cursor-pointer">
-      <nuxt-img
-        class="object-cover w-full h-48"
-        src="SeedCode/img/woew83vkxvweykvlntbv"
-        alt="Flower and sky"
-        provider="cloudinary"
-        loading="lazy"
-      />
-    </div>
-
-    <div class="overflow-hidden rounded-lg shadow-lg cursor-pointer">
-      <nuxt-img
-        class="object-cover w-full h-48"
-        src="SeedCode/img/qhi0a7pt18c8yezyx6jd"
-        alt="Flower and sky"
-        provider="cloudinary"
-        loading="lazy"
-      />
-    </div>
-  </div> -->
-
-
-
-
- 
-        <Carousel
-          :itemsToShow="3.00"
-          :wrapAround="true"
-          :transition="500"
-          :autoplay="4000"
-        >
-          <Slide v-for="(slide, index) in images" :key="index">
-            <div class="carousel__item">
-              <nuxt-img :src="slide.image" provider="cloudinary"
-        loading="lazy"/>
-            </div>
-          </Slide>
-
-          <template #addons>
-            <Navigation />
-            <Pagination />
-          </template>
-        </Carousel>
-    
+    <template #addons>
+      <Navigation />
+      <Pagination />
+    </template>
+  </Carousel>
 
   <footerComponent></footerComponent>
 </template>
@@ -368,61 +333,48 @@ import { ref } from "vue";
 import { images_captions } from "../src/components/home/carouselComponent";
 import "vue3-carousel/dist/carousel.css";
 const images = ref(images_captions);
-
 </script>
 
 <style scoped>
 .carousel__slide {
   padding: 5px;
 }
-
 .carousel__viewport {
   perspective: 2000px;
 }
-
 .carousel__track {
   transform-style: preserve-3d;
 }
-
 .carousel__slide--sliding {
   transition: 0.5s;
 }
-
 .carousel__slide {
   opacity: 1;
   transform: rotateY(-10deg) scale(0.95);
 }
-
 .carousel__slide--active ~ .carousel__slide {
   transform: rotateY(10deg) scale(0.95);
 }
-
 .carousel__slide--prev {
   opacity: 0.9;
   transform: rotateY(-10deg) scale(0.95);
 }
-
 .carousel__slide--next {
   opacity: 0.9;
   transform: rotateY(10deg) scale(0.95);
 }
-
 .carousel__slide--active {
   opacity: 1;
   transform: rotateY(0) scale(1.1);
 }
-
 .carousel__item {
   min-height: 200px;
   width: 100%;
   max-width: 20;
   font-size: 30px;
- border-radius: 30px;
+  border-radius: 30px;
 
   justify-content: center;
   align-items: center;
-
 }
-
-
 </style>

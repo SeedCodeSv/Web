@@ -8,19 +8,19 @@
           <div class="flex flex-col w-full h-full p-5">
             <div class="flex items-center justify-center w-full h-full">
               <div class="w-[80%] lg:w-[80%] xl:w-[70%] 2xl:w-[60%] h-full">
-                <p
+                <h1
                   class="text-3xl text-center font-semibold text-blue-900 lg:text-2xl xl:text-4xl"
                 >
                   Contacto
-                </p>
+                </h1>
                 <!-- <p class="mt-10 text-xl">Bienvenido</p> -->
                 <div class="flex mt-10">
                   <div class="w-[20%] border-b border-gray-400"></div>
-                  <p
+                  <h2
                     class="w-[60%] text-center font-sm font-semibold text-gray-600"
                   >
                     Contáctenos con nosotros
-                  </p>
+                  </h2>
                   <div class="w-[20%] border-b border-gray-400"></div>
                 </div>
                 <form autocomplete="off">
