@@ -90,7 +90,7 @@
           <nuxt-img
             class="object-cover w-full h-full rounded-xl"
             provider="cloudinary"
-            src="SeedCode/img/zmomger5myanynrtylt7"
+            src="SeedCode/img/xzkj7odbv9joepcpbak4"
             loading="lazy"
             alt="Team SeedCode"
             title="Team SeedCode"

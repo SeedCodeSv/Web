@@ -1,20 +1,74 @@
 <template>
   <layout>
     <div
-      class="banner mt-12 md:mt-20 bg-cover flex flex-col justify-center pl-5 md:pl-20 bg-center bg-no-repeat w-screen h-[450px]"
+      class="relative -z-50 mt-12 md:mt-20 bg-cover flex flex-col justify-center bg-center bg-no-repeat w-full h-[260px]"
     >
-      <h2 class="text-white text-[24px] md:text-[40px] font-bold">Nuestros</h2>
-      <h2 class="text-white text-[24px] md:text-[40px] font-bold">Proyectos</h2>
-      <p
-        class="text-left w-[260px] md:w-[400px] mt-6 text-white text-sm md:text-lg"
-      >
-        Con 4 años de experiencia, seedcode sv lidera soluciones de software
-        personalizadas y vanguardistas. Impulsamos el éxito de nuestros clientes
-        con calidad y satisfacción garantizada.
-      </p>
+    <div class="flex items-center justify-center h-screen">
+    <nuxt-img
+      src="SeedCode/img/ovml8w0kgqdftdyv6ri3"
+      class="w-full h-full object-cover"
+      provider="cloudinary"
+      loading="lazy"
+      alt="Logo-SeedCode"
+      title="Logo-SeedCode"
+    />
+  </div>
+      <!-- <nuxt-img
+        src="SeedCode/img/ovml8w0kgqdftdyv6ri3"
+        class="w-full h-[260px] object-cover sm:w-screen sm:h-screen"
+        provider="cloudinary"
+        loading="lazy"
+        alt="Logo-SeedCode"
+        title="Logo-SeedCode"
+      /> -->
+      <div class="absolute pl-4 ml-2 mb-10 mt-16 sm:pl-8 sm:ml-10 sm:mt-32">
+        <h2
+          class="text-white text-[20px] md:text-[40px] font-bold mt-2 sm:mt-4"
+        >
+          Nuestros
+        </h2>
+        <h2 class="text-white text-[20px] md:text-[40px] font-bold">
+          Proyectos
+        </h2>
+        <p
+          class="text-left w-[260px] sm:w-[400px] mt-2 sm:mt-4 text-white text-sm md:text-lg"
+        >
+          Con 4 años de experiencia, seedcode sv lidera soluciones de software
+          personalizadas y vanguardistas. Impulsamos el éxito de nuestros
+          clientes con calidad y satisfacción garantizada.
+        </p>
+      </div>
     </div>
 
-    <div class="relative flex items-center justify-center w-screen mt-20">
+    <!-- <div
+      class="mt-12 md:mt-20 bg-cover flex flex-col justify-center bg-center bg-no-repeat w-full h-[260px]"
+    >
+      <nuxt-img
+        src="SeedCode/img/ovml8w0kgqdftdyv6ri3"
+        class="w-full h-[260px] object-cover sm:w-screen sm:h-screen"
+        provider="cloudinary"
+        loading="lazy"
+        alt="Logo-SeedCode"
+        title="Logo-SeedCode"
+      />
+      <div class="absolute pl-8 ml-10 mt-32">
+        <h2 class="text-white text-[24px] md:text-[40px] font-bold mt-10">
+          Nuestros
+        </h2>
+        <h2 class="text-white text-[24px] md:text-[40px] font-bold">
+          Proyectos
+        </h2>
+        <p
+          class="text-left w-[260px] md:w-[400px] mt-6 text-white text-sm md:text-lg"
+        >
+          Con 4 años de experiencia, seedcode sv lidera soluciones de software
+          personalizadas y vanguardistas. Impulsamos el éxito de nuestros
+          clientes con calidad y satisfacción garantizada.
+        </p>
+      </div>
+    </div> -->
+    <br />
+    <div class="relative flex items-center justify-center w-screen -z-50 mt-52">
       <div
         class="max-w-sm p-6 bg-[#062133] border border-gray-100 rounded-lg shadow-xl dark:bg-gray-800 dark:border-gray-800 dark:hover:bg-gray-700"
       >
@@ -256,6 +310,6 @@ import footerComponent from "../src/components/home/footerComponent.vue";
 
 <style lang="css" scoped>
 .banner {
-  background-image: url("../assets/img/banner.png");
+  background-image: url("SeedCode/img/wp6ldwxbebgo4szpvjjz");
 }
 </style>

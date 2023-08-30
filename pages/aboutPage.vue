@@ -1,14 +1,13 @@
 <template>
   <Layout>
 
-
     <div class="flex justify-center text-center mt-40 sm:mt-15">
       <div class="w-full sm:w-2/3 m-1 align-center text-black rounded-xl p-4">
         <div class="grid sm:grid-cols-1 lg:grid-cols-2">
           <div class="w-full h-70 sm:h-auto">
             <nuxt-img
               class="rounded-xl h-full w-full object-cover"
-              src="SeedCode/img/ekgg0hcvwzkneabdo2dp"
+              src="SeedCode/img/drws9tlxz9xeb0llnjgy"
               provider="cloudinary" loading="lazy"
             />
           </div>
@@ -47,7 +46,7 @@
           <div class="w-full h-70 sm:h-auto">
             <nuxt-img
               class="rounded-xl h-full w-full object-cover"
-              src="SeedCode/img/e7pcaptvzbjlaej4tybn"
+              src="SeedCode/img/ziim3aqab0zovkhyxcft"
               alt="SeedCode"
               provider="cloudinary" loading="lazy"
             />
