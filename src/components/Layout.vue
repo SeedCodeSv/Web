@@ -118,7 +118,7 @@ useHead({
     { name: "author", content: "Manuel Marquez" },
     {
       name: "google-site-verification",
-      content: "gLZQwJ1EAvgDZ4LaYAPHxY2vTMzt_zjSAL0szV0POds",
+      content: "H1YcTXu7lHkqXPab48CxUdz9kPrhL6FtrwSVA4CNppA",
     },
     { name: "publisher", content: "Seed Code SV" },
   ],
