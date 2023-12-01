@@ -56,12 +56,12 @@
 
           <nuxt-link to="/contact" title="Contacto">Contacto</nuxt-link>
         </li>
-        <li
+        <!-- <li
           class="md:p-5 cursor-pointer transition duration-500 px-2 py-1 text-lg text-white flex items-center"
         >
 
           <nuxt-link to="/projects" title="Proyectos">Proyectos</nuxt-link>
-        </li>
+        </li> -->
         <li
           class="md:p-5 cursor-pointer transition duration-500 px-2 py-1 text-lg text-white flex items-center"
         >
@@ -102,7 +102,7 @@ const isOpen = ref(false);
   title: 'Seed Code SV | Software Company',
   charset: 'utf-8',
   ogTitle: 'Seed Code SV',
-  description: 'SeedCode, una empresa líder en servicios tecnológicos, proporciona soluciones innovadoras y personalizadas para impulsar el crecimiento de negocios. Con un equipo altamente capacitado, nos enfocamos en brindar resultados excepcionales y satisfacer las necesidades de nuestros clientes.',
+  description: 'SeedCodeSV, una empresa líder en servicios tecnológicos, proporciona soluciones innovadoras y personalizadas para impulsar el crecimiento de negocios. Con un equipo altamente capacitado, nos enfocamos en brindar resultados excepcionales y satisfacer las necesidades de nuestros clientes.',
   ogDescription: 'Nutriendo ideas y cultivando innovación.',
   ogImage: 'https://media.licdn.com/dms/image/D4E0BAQGNZLnKxP8Fdw/company-logo_200_200/0/1687997940196?e=2147483647&v=beta&t=2Vvu1lrmjplU5RTDjfSIXrwicX5DlALQlCLigQziTU8',
   ogUrl: 'https://seedcodesv.com/'
@@ -111,7 +111,7 @@ const isOpen = ref(false);
 
 useHead({
   meta: [
-    { name: 'keywords', content: 'seedcode, seedcodesv, seed code sv, seedcode sv, SEEDCODE, SEEDCODESV, SeedCode, SeedCodeSV, SeedCode SV, seed, code, seedCode, seedCodeSV' },
+    { name: 'keywords', content: 'seedcodesv, seedcodesv, seed code sv, seedcode sv, SEEDCODE SV, SEEDCODESV, SeedCodeSV, SeedCodeSV, SeedCode SV, seed, code, seedCodeSV, seedCodeSV' },
     { name: 'robots', content: 'INDEX, FOLLOW' },
     { name: 'language', content: 'es-SV' },
     { name: 'author', content: 'Manuel Marquez' },

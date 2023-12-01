@@ -1,6 +1,6 @@
 <template>
   <layout>
-    <div
+    <!-- <div
       class="relative -z-50 mt-12 md:mt-20 bg-cover flex flex-col justify-center bg-center bg-no-repeat w-full h-[260px]"
     >
     <div class="flex items-center justify-center h-screen">
@@ -8,19 +8,12 @@
       src="SeedCode/img/ovml8w0kgqdftdyv6ri3"
       class="w-full h-full object-cover"
       provider="cloudinary"
-      loading="lazy"
+      format="webp"
       alt="Logo-SeedCode"
       title="Logo-SeedCode"
     />
   </div>
-      <!-- <nuxt-img
-        src="SeedCode/img/ovml8w0kgqdftdyv6ri3"
-        class="w-full h-[260px] object-cover sm:w-screen sm:h-screen"
-        provider="cloudinary"
-        loading="lazy"
-        alt="Logo-SeedCode"
-        title="Logo-SeedCode"
-      /> -->
+
       <div class="absolute pl-4 ml-2 mb-10 mt-16 sm:pl-8 sm:ml-10 sm:mt-32">
         <h2
           class="text-white text-[20px] md:text-[40px] font-bold mt-2 sm:mt-4"
@@ -38,7 +31,7 @@
           clientes con calidad y satisfacción garantizada.
         </p>
       </div>
-    </div>
+    </div> -->
 
     <!-- <div
       class="mt-12 md:mt-20 bg-cover flex flex-col justify-center bg-center bg-no-repeat w-full h-[260px]"
@@ -68,12 +61,12 @@
       </div>
     </div> -->
     <br />
-    <div class="relative flex items-center justify-center w-screen -z-50 mt-52">
+    <div class="relative flex items-center justify-center w-screen -z-50 mt-36">
       <div
-        class="max-w-sm p-6 bg-[#062133] border border-gray-100 rounded-lg shadow-xl dark:bg-gray-800 dark:border-gray-800 dark:hover:bg-gray-700"
+        class="max-w-sm p-6 border  rounded-lg shadow-xl"
       >
         <h5
-          class="mb-2 text-2xl font-bold tracking-tight text-center text-white dark:text-white opacity-30"
+          class="mb-2 text-2xl font-bold tracking-tight text-center text-black dark:text-black opacity"
         >
           SeedCode SV
         </h5>
@@ -82,11 +75,11 @@
             class="object-cover rounded-xl"
             provider="cloudinary"
             src="SeedCode/img/wp6ldwxbebgo4szpvjjz"
-            loading="lazy"
+            format="webp"
           />
         </div>
         <p
-          class="mt-4 font-normal text-center text-white dark:text-gray-400 opacity-40"
+          class="mt-4 font-normal text-center text-gray-700  opacity-90"
         >
           Lamentablemente, esta sección del sitio se encuentra actualmente en
           mantenimiento para mejorar la experiencia del usuario. Pronto estará

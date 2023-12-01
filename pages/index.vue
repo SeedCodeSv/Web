@@ -3,47 +3,86 @@
 
   <videoComponent></videoComponent>
   <div
-    class="grid grid-cols-1 gap-2 p-5 md:grid-cols-2 lg:grid-cols-3 md:p-10 mt-15"
+    class="grid grid-cols-1 gap-2 p-4 md:grid-cols-2 lg:grid-cols-3 md:p-10 mt-15"
   >
-    <div class="max-w-sm p-6 mx-auto bg-white rounded-lg shadow-xl">
+  <div class="max-w-sm p-6 mx-auto rounded-lg">
       <div class="flex flex-col items-center p-3">
         <h1
           class="items-center p-3 text-5xl font-black text-center opacity-75 md:text-7xl md:p-5 drop-shadow-xl"
         >
           6+
         </h1>
+        <div class=" rounded-lg p-4 border-2 card mt-3">
+          <h2 class="text-lg font-semibold text-center md:text-xl">
+            Proyectos Completados
+          </h2>
+          <p class="text-base text-center md:text-base">
+            Nos hemos especializado en la creación de soluciones digitales de
+            excelencia y vanguardia.
+          </p>
 
-        <h2 class="text-lg font-semibold text-center md:text-xl">
-          Proyectos Completados
-        </h2>
-        <p class="text-base text-center md:text-base">
-          Nos hemos especializado en la creación de soluciones digitales de
-          excelencia y vanguardia
-        </p>
-        <div class="mt-3">
+        </div>
+        
+        <div class="mt-3 w-full grid place-content-center place-items-center">
           <nuxt-link
             to="/projects"
             type="button"
-            class="text-green-700 hover:text-white border border-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-green-500 dark:text-green-500 dark:hover:text-white dark:hover:bg-green-600 dark:focus:ring-green-800"
+            class="text-green-700  hover:text-white border border-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-green-500 dark:text-green-500 dark:hover:text-white dark:hover:bg-green-600 dark:focus:ring-green-800"
           >
             Ver más
           </nuxt-link>
         </div>
+
       </div>
     </div>
-    <div class="max-w-sm p-6 mx-auto bg-white rounded-lg shadow-xl">
+    <!-- <div class="max-w-sm p-6 border-green-600 mx-auto rounded-lg">
+      <div class="flex flex-col items-center p-3">
+        <h1
+          class="items-center p-3 text-5xl font-black text-center opacity-75 md:text-7xl md:p-5 drop-shadow-xl"
+        >
+          6+
+        </h1>
+        <div class="border-2 card  rounded-lg p-4 shadow-xl">
+          <h2 class="text-lg font-semibold text-center md:text-xl">
+            Proyectos Completados
+          </h2>
+          <p class="text-base text-center md:text-base">
+            Nos hemos especializado en la creación de soluciones digitales de
+            excelencia y vanguardia.
+          </p>
+
+          <div class="mt-3 w-full grid place-content-center place-items-center">
+          <nuxt-link
+            to="/projects"
+            type="button"
+            class="text-green-700  hover:text-white border border-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-green-500 dark:text-green-500 dark:hover:text-white dark:hover:bg-green-600 dark:focus:ring-green-800"
+          >
+            Ver más
+          </nuxt-link>
+        </div>
+        </div>
+
+      </div>
+    </div> -->
+
+
+
+
+    <div class="max-w-sm p-2 mx-auto">
       <div class="flex flex-col items-center p-3">
         <h1
           class="items-center p-3 text-5xl font-black text-center opacity-75 md:text-7xl md:p-5 drop-shadow-xl"
         >
           5+
         </h1>
-        <h2 class="text-lg font-semibold text-center md:text-xl">Clientes</h2>
-        <p class="text-base text-center md:text-base">
-          Nuestra sólida cartera de proyectos exitosos refleja la confianza de
-          nuestros clientes y nuestro enfoque profesional en la satisfacción del
-          cliente.
-        </p>
+        <div class=" rounded-lg p-4 border-2 card mt-3">
+          <h2 class="text-lg font-semibold text-center md:text-xl">Clientes</h2>
+          <p class="text-base text-center md:text-base">
+            Nuestra sólida cartera de proyectos exitosos refleja la confianza de
+            nuestros clientes y nuestro enfoque profesional en la satisfacción
+            del cliente.
+          </p>
+        </div>
         <div class="mt-3">
           <nuxt-link
             to="/clients"
@@ -56,20 +95,52 @@
         </div>
       </div>
     </div>
-    <div class="max-w-sm p-6 mx-auto bg-white rounded-lg shadow-xl">
+
+    <!-- <div class="max-w-sm p-2 mx-auto">
+      <div class="flex flex-col items-center p-3">
+        <h1
+          class="items-center p-3 text-5xl font-black text-center opacity-75 md:text-7xl md:p-5 drop-shadow-xl"
+        >
+          5+
+        </h1>
+        <div class="border-2 card shadow-xl rounded-lg p-4 justify-center content-center">
+          <h2 class="text-lg font-semibold text-center md:text-xl">Clientes</h2>
+          <p class="text-base text-center md:text-base">
+            Nuestra sólida cartera de proyectos exitosos refleja la confianza de
+            nuestros clientes y nuestro enfoque profesional en la satisfacción
+            del cliente.
+          </p>
+        </div>
+        <div class="mt-3">
+          <nuxt-link
+            to="/clients"
+            title="Clientes"
+            type="button"
+            class="text-green-700 hover:text-white border border-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-green-500 dark:text-green-500 dark:hover:text-white dark:hover:bg-green-600 dark:focus:ring-green-800"
+          >
+            Ver más
+          </nuxt-link>
+        </div>
+      </div>
+    </div> -->
+
+
+    <div class="max-w-sm p-6 mx-auto bg-white rounded-lg">
       <div class="flex flex-col items-center p-3">
         <h1
           class="items-center p-3 text-5xl font-black text-center opacity-75 md:text-7xl md:p-5 drop-shadow-xl"
         >
           4+
         </h1>
-        <h2 class="text-lg font-semibold text-center md:text-xl">
-          Años de Experiencia
-        </h2>
-        <p class="text-base text-center md:text-base">
-          Nuestra dedicación y experiencia nos han llevado a ser líderes
-          expertos
-        </p>
+        <div class=" rounded-lg p-4 border-2 card mt-3">
+          <h2 class="text-lg font-semibold text-center md:text-xl">
+            Años de Experiencia
+          </h2>
+          <p class="text-base text-center md:text-base">
+            Nuestra dedicación y experiencia nos han llevado a ser líderes
+            expertos.
+          </p>
+        </div>
         <div class="mt-3">
           <nuxt-link
             to="/aboutPage"
@@ -83,16 +154,21 @@
     </div>
   </div>
 
-  <div class="flex justify-center text-center bg-[#062133] mt-10 sm:mt-15">
-    <div class="justify-center w-full p-4 m-1 text-white sm:w-2/3 rounded-xl">
+
+
+
+  <div class="flex justify-center text-center mt-8 sm:mt-15">
+    <div
+      class="justify-center w-full p-4 m-1 border-gray-300 text-white sm:w-2/3 rounded-xl bg-[rgb(6,33,51)]"
+    >
       <div class="grid sm:grid-cols-1 lg:grid-cols-2">
         <div class="w-full h-70 sm:h-auto">
           <nuxt-img
             class="object-cover w-full h-full rounded-xl"
             provider="cloudinary"
             src="SeedCode/img/xzkj7odbv9joepcpbak4"
-            loading="lazy"
             alt="Team SeedCode"
+            format="webp"
             title="Team SeedCode"
           />
         </div>
@@ -111,9 +187,12 @@
     </div>
   </div>
 
+
   <div class="mt-20">
     <div class="">
-      <h1 class="text-4xl font-black text-center text-black opacity-75">
+      <h1
+        class="text-4xl font-black font-arial text-center text-black opacity-75"
+      >
         Servicios
       </h1>
     </div>
@@ -121,15 +200,15 @@
       class="grid grid-cols-1 p-10 mt-4 md:grid-cols-2 lg:grid-cols-4 gap-x-11 gap-y-11"
     >
       <div
-        class="max-w-xs mx-auto mt-6 overflow-hidden text-black bg-white shadow-xl rounded-2xl"
+        class="max-w-xs mx-auto border-2 card mt-6 overflow-hidden text-black bg-white shadow-xl rounded-2xl"
       >
-        <div class="p-6">
+        <div class="p-6 head">
           <nuxt-img
             class="w-20 mx-auto"
             src="SeedCode/img/nvhjhybcdgixwcsun5my"
             provider="cloudinary"
-            loading="lazy"
             alt="E-commerce"
+            format="webp"
             title="SeedCode - E-commerce"
           />
           <h2 class="mt-3 text-lg font-semibold text-center">E-commerce</h2>
@@ -143,13 +222,14 @@
         </div>
       </div>
       <div
-        class="max-w-xs mx-auto mt-6 overflow-hidden text-black bg-white shadow-xl rounded-2xl"
+        class="max-w-xs mx-auto border-2 card mt-6 overflow-hidden text-black bg-white shadow-xl rounded-2xl"
       >
-        <div class="p-6">
+        <div class="p-6 head">
           <nuxt-img
             class="w-20 mx-auto"
             src="SeedCode/img/b9seedgocrkrj0lwitgy"
             provider="cloudinary"
+            format="webp"
             loading="lazy"
             alt="Software"
             title="SeedCode - Software"
@@ -165,14 +245,14 @@
       </div>
 
       <div
-        class="max-w-xs mx-auto mt-6 overflow-hidden text-black bg-white shadow-xl rounded-2xl"
+        class="max-w-xs card border-2 mx-auto mt-6 overflow-hidden text-black bg-white shadow-xl rounded-2xl"
       >
-        <div class="p-6">
+        <div class="p-6 head">
           <nuxt-img
             class="w-20 mx-auto"
             src="SeedCode/img/mrcwsfymjbun3u6n8uqs"
             provider="cloudinary"
-            loading="lazy"
+            format="webp"
             alt="Social Media"
             title="SeedCode - Social Media"
           />
@@ -187,14 +267,14 @@
       </div>
 
       <div
-        class="max-w-xs mx-auto mt-6 overflow-hidden text-black bg-white shadow-xl rounded-2xl"
+        class="max-w-xs mx-auto border-2 card mt-6 overflow-hidden text-black bg-white shadow-xl rounded-2xl"
       >
-        <div class="p-6">
+        <div class="p-6 head">
           <nuxt-img
             class="w-20 mx-auto"
             src="SeedCode/img/olcgnpo6bqgb9q2dn599"
             provider="cloudinary"
-            loading="lazy"
+            format="webp"
             alt="Web Site"
             title="SeedCode - Web Site"
           />
@@ -209,14 +289,14 @@
       </div>
 
       <div
-        class="max-w-xs mx-auto mt-6 overflow-hidden text-black bg-white shadow-xl rounded-2xl"
+        class="max-w-xs card border-2 mx-auto mt-6 overflow-hidden text-black bg-white shadow-xl rounded-2xl"
       >
-        <div class="p-6">
+        <div class="p-6 head">
           <nuxt-img
             class="w-20 mx-auto"
             src="SeedCode/img/o5jli8wvwc1hknrxm7g5"
             provider="cloudinary"
-            loading="lazy"
+            format="webp"
             alt="Website Optimization"
             title="SeedCode - Website Optimization"
           />
@@ -233,14 +313,14 @@
       </div>
 
       <div
-        class="max-w-xs mx-auto mt-6 overflow-hidden text-black bg-white shadow-xl rounded-2xl"
+        class="max-w-xs mx-auto card border-2 mt-6 overflow-hidden text-black bg-white shadow-xl rounded-2xl"
       >
-        <div class="p-6">
+        <div class="p-6 head">
           <nuxt-img
             class="w-20 mx-auto"
             src="SeedCode/img/zwzwfgnbddmwl8cpaswj"
             provider="cloudinary"
-            loading="lazy"
+            format="webp"
             alt="Medium"
             title="SeedCode - Medium"
           />
@@ -255,14 +335,14 @@
       </div>
 
       <div
-        class="max-w-xs mx-auto mt-6 overflow-hidden text-black bg-white shadow-xl rounded-2xl"
+        class="max-w-xs card border-2 mx-auto mt-6 overflow-hidden text-black bg-white shadow-xl rounded-2xl"
       >
-        <div class="p-6">
+        <div class="p-6 head">
           <nuxt-img
             class="w-20 mx-auto"
             src="SeedCode/img/jtrsxsxkosalebfixjym"
             provider="cloudinary"
-            loading="lazy"
+            format="webp"
             alt="Electronic billing"
             title="SeedCode - Electronic billing"
           />
@@ -280,14 +360,14 @@
       </div>
 
       <div
-        class="max-w-xs mx-auto mt-6 overflow-hidden text-black bg-white shadow-xl rounded-2xl"
+        class="max-w-xs card border-2 mx-auto mt-6 overflow-hidden text-black bg-white shadow-xl rounded-2xl"
       >
-        <div class="p-6">
+        <div class="p-6 head">
           <nuxt-img
             class="w-20 mx-auto"
             src="SeedCode/img/hj3phza9irky76o1sq7r"
             provider="cloudinary"
-            loading="lazy"
+            format="webp"
             alt="Design"
             title="SeedCode - Design"
           />
@@ -311,7 +391,13 @@
   >
     <Slide v-for="(slide, index) in images" :key="index">
       <div class="carousel__item">
-        <nuxt-img :src="slide.image" provider="cloudinary" loading="lazy" alt="Team-SeedCode" title="Team-SeedCode" />
+        <nuxt-img
+          :src="slide.image"
+          provider="cloudinary"
+          format="webp"
+          alt="Team-SeedCode"
+          title="Team-SeedCode"
+        />
       </div>
     </Slide>
 
@@ -376,5 +462,23 @@ const images = ref(images_captions);
 
   justify-content: center;
   align-items: center;
+}
+
+.card {
+  position: relative;
+
+  background: #fff;
+
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.card:hover {
+  box-shadow: 0 5px 15px rgba(3, 89, 92, 0.5);
+  transform: translateY(-15px);
+}
+
+.card .head {
+  position: relative;
 }
 </style>

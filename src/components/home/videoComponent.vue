@@ -7,6 +7,8 @@
       loop
       class="w-full h-[350px] object-cover bg-[rgba(0,0,0,0.8)] masked-video sm:w-screen sm:h-screen"
       id="mobile-video"
+      provider="cloudinary"
+      loading="lazy"
     >
       <source src="/assets/videos/VideoInicial.mp4" type="video/mp4" />
     </video>
