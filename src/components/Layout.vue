@@ -121,6 +121,7 @@ useHead({
       content: "H1YcTXu7lHkqXPab48CxUdz9kPrhL6FtrwSVA4CNppA",
     },
     { name: "publisher", content: "Seed Code SV" },
+    { name="facebook-domain-verification" content="afv371yvz6gbhzvstyqxctw49hdwro" }
   ],
   link: [
     { rel: "canonical", href: "https://seedcodesv.com/" },
