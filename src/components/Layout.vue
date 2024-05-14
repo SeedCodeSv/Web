@@ -111,7 +111,7 @@ useHead({
     {
       name: "keywords",
       content:
-        "seedcodesv, seedcodesv, seed code sv, seedcode sv, SEEDCODE SV, SEEDCODESV, SeedCodeSV, SeedCodeSV, SeedCode SV, seed, code, seedCodeSV, seedCodeSV",
+        "seedcodesv, seedcodesv, seed code sv, seedcode sv, SEEDCODE SV, SEEDCODESV, SeedCodeSV, SeedCodeSV, SeedCode SV, seed, code, seedCodeSV, seedCodeSV, facturación electrónica, DTE sistemas, sistemas de recepción, puntos de venta, aplicaciones móviles, software a la medida",
     },
     { name: "robots", content: "INDEX, FOLLOW" },
     { name: "language", content: "es-SV" },
@@ -121,13 +121,20 @@ useHead({
       content: "H1YcTXu7lHkqXPab48CxUdz9kPrhL6FtrwSVA4CNppA",
     },
     { name: "publisher", content: "Seed Code SV" },
-    { name: "facebook-domain-verification", content: "afv371yvz6gbhzvstyqxctw49hdwro" }
+    { name: "facebook-domain-verification", content: "afv371yvz6gbhzvstyqxctw49hdwro" },
+    {
+      name: "description",
+      content:
+        "SeedCodeSV ofrece soluciones tecnológicas innovadoras para facturación electrónica, DTE sistemas, sistemas de recepción, puntos de venta, aplicaciones móviles y software a la medida para impulsar el crecimiento de negocios.",
+    },
   ],
   link: [
     { rel: "canonical", href: "https://seedcodesv.com/" },
     { rel: "", href: " " },
   ],
 });
+
+
 </script>
 
 <style lang="css" scoped>
